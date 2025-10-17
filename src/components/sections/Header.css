@@ -1,0 +1,75 @@
+
+header{
+    .container{
+        padding: 0;
+        .contactInfo_Bar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 2.9375em;
+            background-color: var(--color-secondary);
+            
+            .left_Content {
+                width: 25.2em;
+                display: flex;
+                margin-left: 2.1em;
+                align-items: center;
+                justify-content: space-around;
+
+                #nr_Text{
+                    margin-left: -1em;
+                }
+
+                #mail_Icon{
+                    margin-left: -.2em;
+                    margin-right: -1.8em;
+                }
+
+                #mail_Text{
+                    margin-right: -.8em;
+                    margin-left: .5em;
+                }
+            }
+            .right_Content{
+                width: 11.1em;
+                margin-right: 3em;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .socialMedia_icon{
+                    height: 2em;
+                    width: 2em;
+                    border-radius: 50%;
+                    background-color: var(--color-accent);
+                    
+                    #socialMedia1{
+                        margin-top: .31em;
+                        margin-left: .55em;
+                    }
+
+                    #socialMedia2{
+                        margin-top: .45em;
+                        margin-left: .45em;
+                    }
+
+                    #socialMedia3{
+                        margin-top: .32em;
+                        margin-left: .28em;
+                    }
+
+                    #socialMedia4{
+                        margin-top: .5em;
+                        margin-left: .3em;
+                    }
+
+
+                }
+            }
+        }
+        .nav_Bar{
+            height: 5.625em;
+            background-color: var(--color-primary);
+        }
+    }
+}
