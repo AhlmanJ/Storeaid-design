@@ -1,0 +1,41 @@
+footer{
+    .container {
+        height: 5.625em;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: var(--color-secondary);
+        .footerLink_Container{
+            display: flex;
+            align-items: center;
+            .footer_Icon{
+                height: 0.9375em;
+                width: 0.9375em;
+                margin: 10px;
+                border-radius: 50%;
+                background-color: var(--color-primary);
+                .icon_Content{
+                    content: '';
+                    height: 0.4em;
+                    width: 0.4em;
+                    position: absolute;
+                    margin-left: .41em;
+                    margin-top: .5em;
+                    transform: translate(-50%, -50%) rotate(45deg);
+                    border-right:2px solid var(--color-secondary);
+                    border-top:2px solid var(--color-secondary);
+                }
+            }
+            #terms_Link{
+                display: flex;
+                align-items: center;
+                margin-right: 40px;
+            }
+            #policy_Link{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+        }
+    }
+}
