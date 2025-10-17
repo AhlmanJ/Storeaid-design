@@ -14,6 +14,9 @@ html, body {
     padding: 0;
     font-size: 16px;
     font-family: Inter, sans-serif;
+    --color-primary: #FFFFFF;
+    --color-secondary: #12372A;
+    --color-accent: #F1C30C;
 }
 
 a{

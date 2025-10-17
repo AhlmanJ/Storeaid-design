@@ -9,6 +9,8 @@ import ContactUs from './pages/ContactUs'
 import Booking from './pages/Booking'
 import NotFound from './pages/NotFound'
 
+import Footer from './components/sections/Footer'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
@@ -24,7 +26,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="*" element={<NotFound/>} />
       </Routes>
 
-     
+    <Footer />
     </div>
     </BrowserRouter>
   </StrictMode>,
