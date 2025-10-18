@@ -23,7 +23,7 @@ function Header() {
             <div className="nav_Bar">
                 <a id='brandLogo_Storaid' href="#"><img src="pictures/header/storAid_Logo.svg" alt="StorAid brand logo" /></a>
                 <div className='navLink_Wrapper'>
-                    <a href="/" class="nav_Links">Home</a>
+                    <a href="/" className="nav_Links">Home</a>
                     <a href="/AboutUs" className="nav_Links">About Us</a>
                     <a href="/Services" className="nav_Links">Services</a>
                     <a href="/ContactUs" className="nav_Links">Contact Us</a>

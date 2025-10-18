@@ -1,6 +1,6 @@
 .header_Btn{
-    height: 2.81em;
-    width: 9.98em;
+    height: 45px;
+    width: 129px;
     border: none;
     font-size: 15px;
     font-weight: 600;
@@ -11,7 +11,7 @@
     p{
         font-size: 15px;
         font-weight: 600;
-        margin-top: .8em;
+        margin-top: .9em;
         text-align: center;
         color: var(--color-secondary);
     }

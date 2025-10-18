@@ -1,0 +1,39 @@
+.hero{
+    height: 715px;
+    width: 100%;
+    padding: 3em;
+    display: grid;
+    grid-template-columns: 220px 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: var(--color-secondary);
+    
+    .heroText-Container{
+        grid-column: 2;
+        grid-row: 2;
+
+        h1{
+            font-size: 25px;
+            line-height: 25px;
+            font-weight: 700;
+        }
+
+        h2{
+            font-size: 80px;
+            line-height: 80px;
+            font-weight: 700;
+            color: var(--color-4);
+
+            #heroH2_span{
+                display: block;
+            }
+        }
+
+        p{  
+            .heroP_span{
+            display: block;
+            line-height: 24px;
+            }
+        }
+    }
+}
+

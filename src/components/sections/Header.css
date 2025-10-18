@@ -2,11 +2,12 @@
 header{
     .container{
         padding: 0;
+
         .contactInfo_Bar{
 
             display: flex;
             padding: 0 2.15em;
-            height: 2.9375em;
+            height: 47px;
             align-items: center;
             justify-content: space-between;
             background-color: var(--color-secondary);
@@ -75,7 +76,7 @@ header{
         }
 
         .nav_Bar{
-            height: 5.625em;
+            height: 90px;
             display: flex;
             align-items: center;
             justify-content: space-between;
