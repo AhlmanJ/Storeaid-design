@@ -1,0 +1,112 @@
+
+header{
+    .container{
+        padding: 0;
+        .contactInfo_Bar{
+
+            display: flex;
+            padding: 0 2.15em;
+            height: 2.9375em;
+            align-items: center;
+            justify-content: space-between;
+            background-color: var(--color-secondary);
+            
+            .left_Content {
+                width: 25.2em;
+                display: flex;
+                margin-left: 0em;
+                align-items: center;
+                justify-content: space-around;
+
+                #nr_Text{
+                    margin-left: -1em;
+                }
+
+                #mail_Icon{
+                    margin-left: -.2em;
+                    margin-right: -1.8em;
+                }
+
+                #mail_Text{
+                    margin-right: -.8em;
+                    margin-left: .5em;
+                }
+            }
+            .right_Content{
+                width: 12.8em;
+                margin-right: 1em;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .socialMedia_icon{
+                    height: 2em;
+                    width: 2em;
+                    border-radius: 50%;
+                    background-color: var(--color-accent);
+
+                    &:hover{
+                        background-color: var(--color-primary);
+                    }
+                    
+                    #socialMedia1{
+                        margin-top: .31em;
+                        margin-left: .55em;
+                    }
+
+                    #socialMedia2{
+                        margin-top: .45em;
+                        margin-left: .4em;
+                    }
+
+                    #socialMedia3{
+                        margin-top: .32em;
+                        margin-left: .3em;
+                    }
+
+                    #socialMedia4{
+                        margin-top: .5em;
+                        margin-left: .35em;
+                    }
+
+
+                }
+            }
+        }
+
+        .nav_Bar{
+            height: 5.625em;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 3em;
+            background-color: var(--color-primary);
+
+            .nav_Links{
+                display: inline-flex;
+                align-items: center;
+                justify-content: space-around;
+                font-size: 18px;
+                font-weight: 600;
+                color: var(--color-secondary);
+            }
+
+            #brandLogo_Storaid{
+                margin-left: 0em;
+            }
+
+            .navLink_Wrapper{
+                width: 25em;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .nav_Links{ 
+                    &:hover{
+                        text-decoration: none;
+                        color: var(--color-accent);
+                    }
+                }
+            }
+        }
+    }
+}
