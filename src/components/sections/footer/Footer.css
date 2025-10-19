@@ -1,20 +1,23 @@
 footer{
     .container {
-        height: 5.625em;
+        height: 90px;
         display: flex;
         align-items: center;
         justify-content: space-around;
         background-color: var(--color-secondary);
-        .footerLink_Container{
+        
+        .footerLink-Container{
             display: flex;
             align-items: center;
-            .footer_Icon{
+
+            .footer-icon{
                 height: 0.9375em;
                 width: 0.9375em;
                 margin: 10px;
                 border-radius: 50%;
                 background-color: var(--color-primary);
-                .icon_Content{
+                
+                .icon-content{
                     content: '';
                     height: 0.4em;
                     width: 0.4em;
@@ -26,12 +29,14 @@ footer{
                     border-top:2px solid var(--color-secondary);
                 }
             }
-            #terms_Link{
+
+            #terms-link{
                 display: flex;
                 align-items: center;
                 margin-right: 40px;
             }
-            #policy_Link{
+
+            #policy-link{
                 display: flex;
                 align-items: center;
                 justify-content: space-around;

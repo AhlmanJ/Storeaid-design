@@ -8,8 +8,8 @@ import ContactUs from './pages/ContactUs'
 import Booking from './pages/Booking'
 import NotFound from './pages/NotFound'
 
-import Header from './components/sections/Header'
-import Footer from './components/sections/Footer'
+import Header from './components/sections/header/Header'
+import Footer from './components/sections/footer/Footer'
 import './index.css'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
