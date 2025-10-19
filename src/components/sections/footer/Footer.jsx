@@ -6,17 +6,17 @@ function Footer() {
      <footer>
       <div className="container">
             <p>&copy; 2025 StorAid, All rights reserved.</p>
-            <div className="footerLink_Container">
-                <a id="terms_Link" href="#">
-                    <div className="footer_Icon">
-                    <div className="icon_Content"></div>
+            <div className="footerLink-Container">
+                <a id="terms-link" href="#">
+                    <div className="footer-icon">
+                    <div className="icon-content"></div>
                     </div>
                     Terms & Conditions
                 </a>
         
-                <a id="policy_Link" href="#" >
-                    <div className="footer_Icon">
-                    <div className="icon_Content"></div>
+                <a id="policy-link" href="#" >
+                    <div className="footer-icon">
+                    <div className="icon-content"></div>
                     </div>
                     Privacy Policy
                 </a>

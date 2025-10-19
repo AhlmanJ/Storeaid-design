@@ -3,7 +3,7 @@ import './DiscoverMore_Btn.css'
 
 function DiscoverMore_Btn() {
   return (
-    <div id='btn'><a className="discover_Btn" href="#"><p>Discover More</p></a></div>
+    <div id='btn'><a className="discover-btn" href="#"><p>Discover More</p></a></div>
   )
 }
 

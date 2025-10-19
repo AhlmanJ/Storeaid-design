@@ -3,7 +3,7 @@ header{
     .container{
         padding: 0;
 
-        .contactInfo_Bar{
+        .contactInfo-bar{
 
             display: flex;
             padding: 0 2.15em;
@@ -12,35 +12,35 @@ header{
             justify-content: space-between;
             background-color: var(--color-secondary);
             
-            .left_Content {
+            .left-content {
                 width: 25.2em;
                 display: flex;
                 margin-left: 0em;
                 align-items: center;
                 justify-content: space-around;
 
-                #nr_Text{
+                #nr-text{
                     margin-left: -1em;
                 }
 
-                #mail_Icon{
+                #mail-icon{
                     margin-left: -.2em;
                     margin-right: -1.8em;
                 }
 
-                #mail_Text{
+                #mail-text{
                     margin-right: -.8em;
                     margin-left: .5em;
                 }
             }
-            .right_Content{
+            .right-content{
                 width: 12.8em;
                 margin-right: 1em;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
 
-                .socialMedia_icon{
+                .socialMedia-icon{
                     height: 2em;
                     width: 2em;
                     border-radius: 50%;
@@ -75,7 +75,7 @@ header{
             }
         }
 
-        .nav_Bar{
+        .nav-bar{
             height: 90px;
             display: flex;
             align-items: center;
@@ -83,7 +83,7 @@ header{
             padding: 0 3em;
             background-color: var(--color-primary);
 
-            .nav_Links{
+            .nav-links{
                 display: inline-flex;
                 align-items: center;
                 justify-content: space-around;
@@ -92,16 +92,16 @@ header{
                 color: var(--color-secondary);
             }
 
-            #brandLogo_Storaid{
+            #brandLogo-storaid{
                 margin-left: 0em;
             }
 
-            .navLink_Wrapper{
+            .navLink-wrapper{
                 width: 25em;
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
-                .nav_Links{ 
+                .nav-links{ 
                     &:hover{
                         text-decoration: none;
                         color: var(--color-accent);
