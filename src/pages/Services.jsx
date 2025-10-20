@@ -1,17 +1,16 @@
 import React from 'react'
+import Banner from '../components/sections/banner/Banner'
+
 
 
 
 const Services = () => {
   return (
-    <div className='banner'>
+    <section className='banner'>
       <div className='container'>
-        <div className='banner-text'>
-          <h1 className='banner-h1'>Services</h1>
-          <p className='banner-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec <span className='text-br'></span> ullamcorper mattis, pulvinar dapibus leo.</p>
-        </div>
+        <Banner />
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -22,12 +22,12 @@ function Header() {
             </div>
             <div className="nav-bar">
                 <a id='brandLogo-storaid' href="#"><img src="pictures/header/storAid_Logo.svg" alt="StorAid brand logo" /></a>
-                <div className='navLink-wrapper'>
+                <nav className='navLink-wrapper'>
                     <a href="/" className="nav-links">Home</a>
                     <a href="/AboutUs" className="nav-links">About Us</a>
                     <a href="/Services" className="nav-links">Services</a>
                     <a href="/ContactUs" className="nav-links">Contact Us</a>
-                </div>
+                </nav>
                 <Button id="discover-btn"/> 
             </div>
         </div>
