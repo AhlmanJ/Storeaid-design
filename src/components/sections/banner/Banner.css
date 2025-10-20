@@ -1,0 +1,28 @@
+.banner {
+    height: 467px;
+    padding: 6.35em;
+    color: var(--color-4);
+    background-color: var(--color-accent3);
+
+    p{color: blue;}
+
+    .banner-text{
+
+        h1{
+            padding-left: 2.03em;
+            font-size: 80px;
+            line-height: 80px;
+            font-weight: 700;
+            color: var(--color-4);
+        }
+
+        .banner-text{
+            padding-left: 10.1em;
+            color: var(--color-4);
+
+            .text-br{
+                display: block;
+            }
+        }
+    }
+}
