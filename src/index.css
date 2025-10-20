@@ -8,6 +8,7 @@
     --color-accent3: rgba(18, 55, 42, 0.80);
     --color-accent: #F1C30C;
     --color-2: #ECECEC;
+    --color-3: #FAF8EC;
     --color-4: #F1FFEA;
 }
 
@@ -21,6 +22,7 @@ html, body {
     --color-accent3: rgba(18, 55, 42, 0.80);
     --color-accent: #F1C30C;
     --color-2: #ECECEC;
+    --color-3: #FAF8EC;
     --color-4: #F1FFEA;
 }
 
@@ -58,37 +60,16 @@ h1,h2,h3,h4,h5,h6 {
     padding-right: 1rem
 }
 
-
-
-.banner {
-    height: 467px;
-    padding: 6.35em;
-    color: var(--color-4);
-    background-color: var(--color-accent3);
-
-    .banner-text{
-
-        h1{
-            padding-left: 2.03em;
-            font-size: 80px;
-            line-height: 80px;
-            font-weight: 700;
-            color: var(--color-4);
-        }
-
-        .banner-text{
-            padding-left: 10.1em;
-            color: var(--color-4);
-
-            .text-br{
-                display: block;
-            }
-        }
-    }
-}
-
 .aboutUs {
     height: 739px;
     display: grid;
     place-items: center;
+}
+
+.brands {
+    height: 148px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--color-3);
 }

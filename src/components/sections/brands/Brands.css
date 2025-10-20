@@ -1,0 +1,9 @@
+.brands-container {
+    height: 71px;
+    width: 1364px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
