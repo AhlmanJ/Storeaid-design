@@ -21,6 +21,7 @@ header{
 
                 #nr-text{
                     margin-left: -1em;
+                    font-family: inter;
                 }
 
                 #mail-icon{
@@ -29,6 +30,7 @@ header{
                 }
 
                 #mail-text{
+                    font-family: inter;
                     margin-right: -.8em;
                     margin-left: .5em;
                 }
