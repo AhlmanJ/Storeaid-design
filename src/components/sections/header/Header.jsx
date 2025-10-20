@@ -8,9 +8,9 @@ function Header() {
         <div className="container">
             <div className="contactInfo-bar">
                 <div className='left-content'>
-                    <img src="pictures/header/phone_Icon.svg" alt="an icon that looks like a phone" />
+                    <img src="pictures/header/phone_Icon.svg" alt="An icon that looks like a phone" />
                     <a href="#"><p id='nr-text'>+46 8 123 122 44</p></a>
-                    <img id='mail-icon' src="pictures/header/mail_Icon.svg" alt="Images of a an icon that looks like a letter" />
+                    <img id='mail-icon' src="pictures/header/mail_Icon.svg" alt="An icon that looks like a letter" />
                     <a href="#"><p id='mail-text'>contact@domain.com</p></a>
                 </div>
                 <div className='right-content'>
