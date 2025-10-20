@@ -105,10 +105,17 @@
                 border-radius: 0.625em;
                 border: 3px solid var(--color-2);
 
+                &:hover {
+                    cursor: default;
+                    border: 3px solid var(--color-accent);
+                }
+                
+
                 h5 {
                     margin-top: .5em;
                     margin-left: .5em;
                     margin-bottom: -.1em;
+                    color: var(--color-secondary);
                 }
 
                 p {
@@ -121,13 +128,18 @@
                 height: 156px;
                 width: 310px;
                 border-radius: 0.625em;
-                border: 3px solid var(--color-accent);
+                border: 3px solid var(--color-2);
 
+                &:hover {
+                    cursor: default;
+                    border: 3px solid var(--color-accent);
+                }
                 
                 h5 {
                     margin-top: .5em;
                     margin-left: .5em;
                     margin-bottom: -.1em;
+                    color: var(--color-secondary);
                 }
 
                 p {

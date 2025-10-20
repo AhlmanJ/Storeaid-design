@@ -21,7 +21,7 @@ function Header() {
                 </div>
             </div>
             <div className="nav-bar">
-                <a id='brandLogo-storaid' href="#"><img src="pictures/header/storAid_Logo.svg" alt="StorAid brand logo" /></a>
+                <a id='brandLogo-storaid' href="/"><img src="pictures/header/storAid_Logo.svg" alt="StorAid brand logo" /></a>
                 <nav className='navLink-wrapper'>
                     <a href="/" className="nav-links">Home</a>
                     <a href="/AboutUs" className="nav-links">About Us</a>
