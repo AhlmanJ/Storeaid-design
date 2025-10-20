@@ -1,16 +1,21 @@
 import React from 'react'
 import Banner from '../components/sections/banner/Banner'
+import OurServices from '../components/sections/our-services/OurServices'
 
 
 
 
 const Services = () => {
   return (
-    <section className='banner'>
-      <div className='container'>
+    <>
+      <section className='banner'>
         <Banner />
-      </div>
-    </section>
+      </section>
+
+      <section className='ourServices'>
+        <OurServices />
+      </section>
+    </>
   )
 }
 

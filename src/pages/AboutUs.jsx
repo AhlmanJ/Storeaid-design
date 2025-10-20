@@ -6,7 +6,7 @@ import Brands from '../components/sections/brands/Brands'
 
 const AboutUs = () => {
   return (
-    <div>
+    <>
       <section className='banner'>
         <div className='container'>
           <Banner />
@@ -20,7 +20,7 @@ const AboutUs = () => {
       <section className='brands'>
           <Brands />
       </section>
-    </div>
+    </>
   )
 }
 

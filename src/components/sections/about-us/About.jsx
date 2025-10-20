@@ -40,7 +40,7 @@ function About() {
           <DiscoverMore_Btn_LightBg />
           <div className='contactInfo-container'>
             <div className='phoneicon-background'>
-              <img id='yellowPhone' src="public/pictures/Yellow-phone-icon.svg" alt="An icon that looks like a phone" />
+              <img id='yellowPhone' src="public/pictures/aboutUs/Yellow-phone-icon.svg" alt="An icon that looks like a phone" />
             </div>
             <div className='moreInfo'>
               <h5>More Information<span id='nr-Br'><a href="#"><h6 id='phone-nr'>+46 8 123 122 44</h6></a></span> </h5>

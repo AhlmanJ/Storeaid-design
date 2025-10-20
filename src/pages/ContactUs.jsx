@@ -4,9 +4,7 @@ import Banner from '../components/sections/banner/Banner'
 function ContactUs() {
   return (
     <section className='banner'>
-      <div className='container'>
-        <Banner />
-      </div>
+      <Banner />
     </section>
   )
 }

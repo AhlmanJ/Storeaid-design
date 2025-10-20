@@ -1,0 +1,28 @@
+.tile{
+    height: 155px;
+    width: 390px;
+    margin-top: 1em;
+    border-radius: 0.625em;
+    border: 3px solid var(--color-2);
+
+    &:hover{
+        border: 3px solid var(--color-accent);
+    }
+
+    h4{
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 25px;
+        margin-top: .8em;
+        margin-left: .8em;
+        color: var(--color-secondary);
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: -.8em;
+        margin-left: 1.3em;
+        color: var(--color-secondary);
+    }
+}
