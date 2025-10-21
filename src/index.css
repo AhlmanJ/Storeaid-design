@@ -84,3 +84,16 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: center;
     background-color: var(--color-primary);
 }
+
+.testimonials{
+    height: 669px;
+
+    #testimonials-bg{
+        height: 669px;
+        background-color: var(--color-accent3);
+    }
+    #bg-img {
+        z-index: -1;
+        position: absolute;
+    }
+}

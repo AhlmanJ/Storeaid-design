@@ -1,0 +1,29 @@
+.testimonials {
+    height: 669px;
+    
+    .testimonials-content {
+        margin-top: -2em;
+        text-align: center;
+
+        h3 {
+            font-size: 52px;
+            font-weight: 700;
+            line-height: 52px;
+            color: var(--color-primary);
+        }
+
+        h4 {
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 25px;
+        }
+        
+        p {
+            line-height: 24px;
+            .text-br {
+                display: block;
+            }
+        }
+    }
+
+}

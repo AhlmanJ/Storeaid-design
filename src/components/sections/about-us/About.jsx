@@ -43,7 +43,7 @@ function About() {
               <img id='yellowPhone' src="public/pictures/aboutUs/Yellow-phone-icon.svg" alt="An icon that looks like a phone" />
             </div>
             <div className='moreInfo'>
-              <h5>More Information<span id='nr-Br'><a href="#"><h6 id='phone-nr'>+46 8 123 122 44</h6></a></span> </h5>
+              <h5>More Information<span id='nr-Br'><a href="*" aria-label='Link to contact the company by phone.'><h6 id='phone-nr'>+46 8 123 122 44</h6></a></span> </h5>
             </div>
           </div>
         </div>

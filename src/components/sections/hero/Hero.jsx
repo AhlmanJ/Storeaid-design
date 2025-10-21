@@ -11,7 +11,7 @@ function Hero() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a sem magna. Etiam ac odio sit<span className='heroP-span'></span>amet lorem fringilla sodales. Cras lobortis, libero at iaculis luctus, nisi ex pellentesque nisi, at<span className='heroP-span'></span>euismod sem ipsum ac dolor.</p>
             <DiscoverMore_Btn />
         </div>
-        <img id='hero-img' src="pictures/hero/Hero-img.svg" alt="" />
+        <img id='hero-img' src="pictures/hero/Hero-img.svg" alt="Image of a person carrying a box." />
     </div>
   )
 }
