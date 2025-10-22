@@ -1,0 +1,76 @@
+.testimonialTiles {
+    padding: 30px 0px;
+    height: 295px;
+    width: 437px;
+    border-radius: 0.625em;
+    background-color: var(--color-primary);
+
+    &:hover {
+        border: 3px solid var(--color-accent);
+    }
+
+    p {  
+        text-align: start;
+        margin: 0px 25px;
+        margin-top: 20px;
+        line-height: 24px;
+        color: var(--color-secondary);
+    }
+
+    .rating {
+        margin: 0px 25px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .comment {
+        height: 90px;
+    }
+
+    .author-wrapper {
+        display: flex;
+        margin-top: 30px;
+        margin-left: -.4em;
+        align-content: center;
+        justify-content: space-around;
+
+        .avatar {
+            height: 70px;
+            width: 70px;
+            margin: 0em;
+            padding: 0em;
+            border-radius: 50%;
+            background-color: var(--color-fill);
+        }
+
+        .id-wrapper {
+            width: 100px;
+            display: block;
+            align-items: start;
+            justify-items: start;
+            margin-top: -1.8em;
+
+            .name {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 0px;
+                margin-top: 2.5em;
+                margin-left: -2.5em;
+                color: var(--color-secondary);
+            }
+            
+            .companyName {
+                font-size: 14px;
+                line-height: 14px;
+                margin-top: -1.8em;
+                margin-left: -3.6em;
+                color: var(--color-secondary);
+            }
+        }
+
+        #quot-icon {
+                margin-bottom: -2.5em;
+            }
+    }
+}

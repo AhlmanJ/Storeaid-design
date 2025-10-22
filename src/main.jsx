@@ -11,12 +11,13 @@ import NotFound from './pages/NotFound'
 import Header from './components/sections/header/Header'
 import Footer from './components/sections/footer/Footer'
 import './index.css'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
     <div className='wrapper'>
     <Header />
-
+    
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/AboutUs" element={<AboutUs/>} />  
