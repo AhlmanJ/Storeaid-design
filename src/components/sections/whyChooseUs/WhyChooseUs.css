@@ -1,0 +1,129 @@
+.Home {
+    height: 788px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-3);
+}
+
+.AboutUs {
+    height: 788px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+}
+
+.Bookings {
+    height: 788px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-3);
+}
+
+.content-container {
+    height: 684px;
+    width: 1364px;
+
+    h3 {
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 52px;
+        color: var(--color-secondary);
+    }
+
+    h4{
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+
+    p {
+        line-height: 24px;
+        color: var(--color-secondary);
+    }
+
+    .txt-br{
+        display: block;
+    }
+
+    .section1 {
+        margin-top: -4em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    .section2 {
+        height: 420px;
+        margin-top: -3.5em;
+        display: flex;
+
+        .section2-leftSide{
+            width: 650px;
+            margin-left: 1.5em;
+
+            h5 {
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 25px;
+                color: var(--color-secondary);
+            }
+
+            p {
+                margin-top: -1.5em;
+            }
+
+            .lock {
+                display: flex;
+                
+            }
+
+            .moneyBag {
+                display: flex;
+                
+            }
+
+            .clean {
+                display: flex;
+                
+            }
+
+            .clock {
+                display: flex;
+                
+            }
+
+            .txt-container {
+                margin-top: -1.2em;
+                margin-left: 1em;
+            }
+
+            .card {
+                height: 83px;
+                width: 83px;
+                margin-top: 1.5em;
+                display: grid;
+                align-content: center;
+                justify-content: center;
+                border-radius: 50%;
+                background-color: var(--color-secondary);
+            }
+        }
+
+        .section2-rightSide {
+            margin-top: 1.8em;
+            margin-left: 2em;
+
+            .img-container {
+                height: 424px;
+                width: 659px;
+                border-radius: 0.3125em;
+                border: 5px solid var(--color-2);
+                background-color: var(--color-fill);
+            }
+        }
+    }
+}

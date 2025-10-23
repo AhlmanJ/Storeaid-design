@@ -4,6 +4,7 @@ import About from '../components/sections/about-us/About'
 import Banner from '../components/sections/banner/Banner'
 import Brands from '../components/sections/brands/Brands'
 import Testimonials from '../components/sections/testimonials/Testimonials'
+import WhyChooseUs from '../components/sections/whyChooseUs/WhyChooseUs'
 
 const AboutUs = () => {
   return (
@@ -22,6 +23,7 @@ const AboutUs = () => {
       <section className='testimonials'>
         <div id='testimonials-bg'><Testimonials /></div>
       </section>
+      <WhyChooseUs />
     </>
   )
 }
