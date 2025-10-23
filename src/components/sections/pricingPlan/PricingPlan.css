@@ -1,0 +1,29 @@
+.pricingPlan-container {
+    height: 692px;
+    width: 1365px;
+
+    h3 {
+        margin-top: -.2em;
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 52px;
+        color: var(--color-secondary);
+    }
+
+    h4 {
+        margin-top: .1em;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+
+    .txt-br {
+        display: block;
+    }
+
+    .priceList-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

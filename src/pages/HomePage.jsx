@@ -2,10 +2,10 @@ import React from 'react'
 import Hero from '../components/sections/hero/Hero'
 import About from '../components/sections/about-us/About'
 import Brands from '../components/sections/brands/Brands'
-import OurServices from '../components/sections/our-services/OurServices'
+import OurServices from '../components/sections/ourServices/OurServices'
 import Testimonials from '../components/sections/testimonials/Testimonials'
 import WhyChooseUs from '../components/sections/whyChooseUs/WhyChooseUs'
-import PriceListContent from '../components/elements/PriceListContent'
+import PricingPlan from '../components/sections/pricingPlan/PricingPlan'
 
 function HomePage() {
   return (
@@ -25,6 +25,9 @@ function HomePage() {
           <div id='testimonials-bg'><Testimonials /></div>
         </section>
         <WhyChooseUs />
+        <section className='pricingPlan'>
+          <PricingPlan />
+        </section>
     </>
   )
 }
