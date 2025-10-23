@@ -10,6 +10,7 @@
         font-size: 52px;
         font-weight: 700;
         line-height: 52px;
+        color: var(--color-accent);
     }
 
     h5 {
@@ -49,7 +50,7 @@
 
         .dollarIcon{
             margin-top: -3em;
-            margin-right: -2em;
+            margin-right: -1em;
         }
 
         .price {

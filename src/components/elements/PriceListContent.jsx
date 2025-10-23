@@ -1,11 +1,10 @@
 import './PriceList.css'
-
 import React from 'react'
 
 function PriceListContent(props) {
   return (
     <div className='priceList'>
-        <h5>Small Unit</h5>
+        <h5 className='heading'>{props.heading}</h5>
         <div className='priceContainer'>
             <img className='dollarIcon' src="public/pictures/priceList/dollar-icon.svg" alt="" />
             <h3 className='price'>{props.price}</h3>
