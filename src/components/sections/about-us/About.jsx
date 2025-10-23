@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import DiscoverMore_Btn_LightBg from '../../elements/DiscoverMore_Btn_LightBg'
+import TileSmallContent from '../../elements/TileSmallContent'
 
 function About() {
   return (
@@ -27,14 +28,8 @@ function About() {
         <h3>Providing a Safe Space for<span id='h3-br'></span>Your Treasured Items</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui<span className='text-br'></span>lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi, non sodales augue.<span className='text-br'></span>Phasellus eget elit gravida.</p>
         <div className='box-container'> 
-          <div className='vision'>
-            <h5>Vision</h5>
-            <p>Sed ut perspiciatis unde omnis iste<span className='text-br'></span>natus error sit voluptatem accusan<span className='text-br'></span>tium doloremque laudantium.</p>
-          </div>
-          <div className='mission'>
-            <h5>Mission</h5>
-            <p>Sed ut perspiciatis unde omnis iste<span className='text-br'></span>natus error sit voluptatem accusan<span className='text-br'></span>tium doloremque laudantium.</p>
-          </div>
+            <TileSmallContent heading='Vision' text='Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium.'/>
+            <TileSmallContent heading='Mission' text='Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium.'/>
         </div>
         <div className='contact-container'>
           <DiscoverMore_Btn_LightBg />

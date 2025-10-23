@@ -19,7 +19,7 @@ function HomePage() {
           <OurServices />
         </section>
         <section className='testimonials'>
-          <img id='bg-img' src="public/pictures/testimonials/Testimonials-Bg-Img.Svg" alt="A picture of a warehouse worker." />
+          <img id='bg-img' src="public/pictures/testimonials/Testimonials-Bg-Img.Svg" alt="A picture of a warehouse worker."/>
           <div id='testimonials-bg'><Testimonials /></div>
         </section>
     </>
