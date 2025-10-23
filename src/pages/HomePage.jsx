@@ -7,6 +7,7 @@ import Testimonials from '../components/sections/testimonials/Testimonials'
 import WhyChooseUs from '../components/sections/whyChooseUs/WhyChooseUs'
 import PricingPlan from '../components/sections/pricingPlan/PricingPlan'
 import LookingForSecure from '../components/sections/lookingForSecure/LookingForSecure'
+import Card from '../components/elements/Card'
 
 function HomePage() {
   return (

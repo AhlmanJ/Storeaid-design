@@ -1,0 +1,68 @@
+.card {
+    height: 558px;
+    width: 430px;
+    padding: 1.5em;
+    border-radius: 0.3125em;
+    background-color: var(--color-secondary);
+
+    &:hover{
+        background-color: var(--color-4);
+    }
+
+    .card-img {
+        height: 254px;
+        width: 380px;
+        border-radius: 0.3125em;
+        background-color: var(--color-fill);
+    }
+
+    .calendar-container{
+        display: flex;
+
+        .icon{
+            height: 18px;
+            width: 17px;
+            margin-top: 1em;
+            background-image: url("public/pictures/card/calendarWhite-icon.svg");;
+        }
+
+        .calendar-txt {
+            margin-left: .5em;
+            font-size: 14px;
+            line-height: 25px;
+        }
+    }
+
+    .card-header {
+        font-size: 20px;
+        margin-top: .5em;
+        font-weight: 700;
+        line-height: 25px;
+        color: var(--color-primary);
+    }
+
+    .card-txt {
+        margin-top: -1.5em;
+    }
+
+    .readMoreLink {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        font-family: inter;
+        color: var(--color-accent);
+    }
+}
+
+.card:hover .icon {
+    background-image: url("public/pictures/card/calendarGreen-icon.svg");        
+}
+.card:hover .calendar-txt {
+    color: var(--color-secondary);
+}
+.card:hover .card-header {
+    color: var(--color-secondary);
+}
+.card:hover .card-txt {
+    color: var(--color-secondary);
+}
