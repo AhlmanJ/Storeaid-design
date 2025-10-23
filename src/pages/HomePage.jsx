@@ -5,6 +5,7 @@ import Brands from '../components/sections/brands/Brands'
 import OurServices from '../components/sections/our-services/OurServices'
 import Testimonials from '../components/sections/testimonials/Testimonials'
 import WhyChooseUs from '../components/sections/whyChooseUs/WhyChooseUs'
+import PriceListContent from '../components/elements/PriceListContent'
 
 function HomePage() {
   return (

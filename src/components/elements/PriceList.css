@@ -1,0 +1,151 @@
+.priceList {
+    height: 519px;
+    width: 321px;
+    padding: 0em 2em;
+    border-radius: 0.625em;
+    border: 3px solid var(--color-2);
+    background-color: var(--color-4);
+
+    h3 {
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 52px;
+    }
+
+    h5 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 25px;
+        margin-bottom: -.5em;
+        color: var(--color-secondary);
+    }
+
+    h6 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        color: var(--color-secondary);
+    }
+
+    p { 
+        font-weight: 400;
+        color: var(--color-secondary);
+    }
+
+    &:hover {
+        background-color: var(--color-secondary);
+    }
+
+   
+    .txt-br {
+        display: block;
+    }
+
+    .priceContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .dollarIcon{
+            margin-top: -3em;
+            margin-right: -2em;
+        }
+
+        .price {
+            margin-top: .6em;
+            margin-right: -.6em;
+        }
+    }
+
+    .price-txt {
+        margin-top: -1.5em;
+    }
+
+    .line {
+        height: 1px;
+        width: 248px;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        border: 1px solid var(--color-secondary);
+    }
+
+    .box {
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .checkbox-bg {
+            height: 13px;
+            width: 13.62px;
+            margin-left: -.5em;
+            background-color: var(--color-secondary);
+            border-radius: 50%;
+        }
+
+        .checkbox-content {
+            align-items: center;
+            height: 7px;
+            width: 5px;
+            margin-top: .3em;
+            margin-left: .45em;
+            transform: translate(-50%, -50%) rotate(45deg);
+            border: solid;
+            border-color: var(--color-primary);
+            border-width: 0 2px 2px 0;
+        }
+
+        .checkbox-txt {
+            margin-right: 2em;
+        }
+
+        
+        #checkbox-txt5 {
+            margin-right: .4em;
+        }
+    }
+
+    .rentNow-btn {
+        height: 45px;
+        width: 124px;
+        display: grid;
+        cursor: pointer;
+        margin-top: 1em;
+        margin-left: 3.5em;
+        align-content: center;
+        justify-content: center;
+        border-radius: 0.3125em;
+        background-color: var(--color-accent);
+
+        &:hover {
+            background-color: var(--color-primary);
+        }
+
+        a{  
+            height: 45px;
+            width: 124px;
+            margin-top: -.6em;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 25px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--color-secondary);
+        }
+
+        p{
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 25px;
+        }
+    }
+}
+
+.priceList:hover .month{color: var(--color-primary);}
+.priceList:hover .price-txt{color: var(--color-primary);}
+.priceList:hover h5 {color: var(--color-primary);}
+.priceList:hover .line {border-color: var(--color-primary);}
+.priceList:hover .checkbox-bg {background-color: var(--color-accent);}
+.priceList:hover .checkbox-content {border-color: var(--color-secondary);}
+.priceList:hover .checkbox-txt {color: var(--color-primary);}
