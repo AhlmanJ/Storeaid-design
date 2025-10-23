@@ -9,9 +9,9 @@ function Header() {
             <div className="contactInfo-bar">
                 <div className='left-content'>
                     <img src="pictures/header/phone_Icon.svg" alt="An icon that looks like a phone" />
-                    <a href="*" aria-label='Link to contact the company by phone.'><p id='nr-text'>+46 8 123 122 44</p></a>
+                    <a className='header-link' href="*" aria-label='Link to contact the company by phone.'><p id='nr-text'>+46 8 123 122 44</p></a>
                     <img id='mail-icon' src="pictures/header/mail_Icon.svg" alt="An icon that looks like a letter" />
-                    <a href="*" aria-label='Link to contact the company via email.'><p id='mail-text'>contact@domain.com</p></a>
+                    <a className='header-link' href="*" aria-label='Link to contact the company via email.'><p id='mail-text'>contact@domain.com</p></a>
                 </div>
                 <div className='right-content'>
                     <a className='socialMedia-icon' href="https://facebook.com" target='_blank'><img id='socialMedia1' src="pictures/header/header_Icon1.svg" alt="Facebook logo" aria-label='Link to Facebook.' /></a>

@@ -19,9 +19,17 @@ header{
                 align-items: center;
                 justify-content: space-around;
 
+                .header-link {
+                    text-decoration: none;
+                }
+
                 #nr-text{
                     margin-left: -1em;
                     font-family: inter;
+
+                    &:hover {
+                        color: var(--color-accent);
+                    }
                 }
 
                 #mail-icon{
@@ -33,6 +41,10 @@ header{
                     font-family: inter;
                     margin-right: -.8em;
                     margin-left: .5em;
+
+                    &:hover {
+                        color: var(--color-accent);
+                    }
                 }
             }
             .right-content{
@@ -71,8 +83,6 @@ header{
                         margin-top: .5em;
                         margin-left: .35em;
                     }
-
-
                 }
             }
         }
