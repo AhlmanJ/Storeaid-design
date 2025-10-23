@@ -13,7 +13,8 @@
         color: var(--color-secondary);
     }
 
-    &:hover{
-        background-color: var(--color-primary);
-    }
+}
+
+#btn:hover {
+    background-color: var(--color-primary);
 }

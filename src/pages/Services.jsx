@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '../components/sections/banner/Banner'
 import OurServices from '../components/sections/ourServices/OurServices'
 import Testimonials from '../components/sections/testimonials/Testimonials'
+import LookingForSecure from '../components/sections/lookingForSecure/LookingForSecure'
 
 
 
@@ -17,6 +18,9 @@ const Services = () => {
       </section>
       <section className='testimonials'>
         <div id='testimonials-bg'><Testimonials /></div>
+      </section>
+      <section className='LookingForSecure'>
+        <LookingForSecure />
       </section>
     </>
   )

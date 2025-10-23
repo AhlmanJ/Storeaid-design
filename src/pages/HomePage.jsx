@@ -6,6 +6,7 @@ import OurServices from '../components/sections/ourServices/OurServices'
 import Testimonials from '../components/sections/testimonials/Testimonials'
 import WhyChooseUs from '../components/sections/whyChooseUs/WhyChooseUs'
 import PricingPlan from '../components/sections/pricingPlan/PricingPlan'
+import LookingForSecure from '../components/sections/lookingForSecure/LookingForSecure'
 
 function HomePage() {
   return (
@@ -22,11 +23,16 @@ function HomePage() {
         </section>
         <section className='testimonials'>
           <img id='bg-img' src="public/pictures/testimonials/Testimonials-Bg-Img.Svg" alt="A picture of a warehouse worker."/>
-          <div id='testimonials-bg'><Testimonials /></div>
+          <div id='testimonials-bg'>
+            <Testimonials />
+          </div>
         </section>
         <WhyChooseUs />
         <section className='pricingPlan'>
           <PricingPlan />
+        </section>
+        <section className='LookingForSecure'>
+          <LookingForSecure />
         </section>
     </>
   )
