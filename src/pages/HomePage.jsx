@@ -4,6 +4,7 @@ import About from '../components/sections/about-us/About'
 import Brands from '../components/sections/brands/Brands'
 import OurServices from '../components/sections/our-services/OurServices'
 import Testimonials from '../components/sections/testimonials/Testimonials'
+import WhyChooseUs from '../components/sections/whyChooseUs/WhyChooseUs'
 
 function HomePage() {
   return (
@@ -22,6 +23,7 @@ function HomePage() {
           <img id='bg-img' src="public/pictures/testimonials/Testimonials-Bg-Img.Svg" alt="A picture of a warehouse worker."/>
           <div id='testimonials-bg'><Testimonials /></div>
         </section>
+        <WhyChooseUs />
     </>
   )
 }
