@@ -7,7 +7,7 @@ import Testimonials from '../components/sections/testimonials/Testimonials'
 import WhyChooseUs from '../components/sections/whyChooseUs/WhyChooseUs'
 import PricingPlan from '../components/sections/pricingPlan/PricingPlan'
 import LookingForSecure from '../components/sections/lookingForSecure/LookingForSecure'
-import Card from '../components/elements/Card'
+import BlogAndNews from '../components/sections/blogAndNews/BlogAndNews'
 
 function HomePage() {
   return (
@@ -32,8 +32,11 @@ function HomePage() {
         <section className='pricingPlan'>
           <PricingPlan />
         </section>
-        <section className='LookingForSecure'>
+        <section className='looking'>
           <LookingForSecure />
+        </section>
+        <section className='blogAndNews'>
+          <BlogAndNews />
         </section>
     </>
   )

@@ -103,6 +103,14 @@ h1,h2,h3,h4,h5,h6 {
     background-color: var(--color-primary);
 }
 
-.LookingForSecure {
+.looking {
     background-color: var(--color-accent3);
+}
+
+.blogAndNews {
+    height: 917px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
 }
