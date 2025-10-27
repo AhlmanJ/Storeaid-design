@@ -1,19 +1,34 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Card.css'
 
-function Card() {
+import CardContent from './CardContent'
+const Card = () => {
+
+  const apiUrl = 'https://win25-jsf-assignment.azurewebsites.net/api/blogs'
+  const [card,setCard] = useState([])
+  
+  useEffect(() => {
+
+    const getData = async () => {
+      try{
+        const res = await fetch(apiUrl)
+        const data = await res.json()
+        setCard(data)
+        console.log(setCard)
+      }catch(error) {
+        console.error(`ERROR: ${error}`)
+      }
+    }
+      getData()
+    }, [])
   return (
-    <div className='card'>
-        <div className='card-img'></div>
-        <div className='calendar-container'>
-            <div className='icon'></div>
-            <div className='calendar-txt'><p className='calendar-txt'>August 17, 2025</p></div>
-        </div>
-        <h6 className='card-header'>Safe and Secure: The Importance of Choosing the Right Storage</h6>
-        <p className='card-txt'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a sem magna. Etiam ac odio sit amet lorem…</p>
-        <a className='readMoreLink' href="*">Read more →</a>
-    </div>
+    <>
+      {
+        card.length > 0 && card.map(card => ( 
+          <CardContent key={card.id}  card={card} />
+          ))
+      }
+    </>
   )
 }
-
 export default Card

@@ -12,7 +12,6 @@ const TestimonialTiles = () => {
       const res = await fetch(apiUrl)
       const data = await res.json()
       setTestimonials(data)
-      console.log(data)
     }catch(error) {
       console.error(`ERROR: ${error}`)
     }
