@@ -12,7 +12,7 @@ const Booking = () => {
           <Banner />
       </section>
       <WhyChooseUs />
-      <section className='LookingForSecure'>
+      <section className='looking'>
         <LookingForSecure />
       </section>
     </>
