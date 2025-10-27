@@ -19,7 +19,7 @@ const Services = () => {
       <section className='testimonials'>
         <div id='testimonials-bg'><Testimonials /></div>
       </section>
-      <section className='LookingForSecure'>
+      <section className='looking'>
         <LookingForSecure />
       </section>
     </>
