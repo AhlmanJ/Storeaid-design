@@ -1,11 +1,12 @@
 .card {
     height: 558px;
-    width: 430px;
+    width: 460px;
     padding: 1.5em;
     border-radius: 0.3125em;
     background-color: var(--color-secondary);
 
     &:hover{
+        height: 780px;
         background-color: var(--color-4);
     }
 
@@ -22,14 +23,16 @@
         .icon{
             height: 18px;
             width: 17px;
-            margin-top: 1em;
+            margin-top: 2em;
             background-image: url("public/pictures/card/calendarWhite-icon.svg");;
         }
 
         .calendar-txt {
-            margin-left: .5em;
+            margin-top: 1em;
+            margin-left: .4em;
             font-size: 14px;
             line-height: 25px;
+            overflow: hidden;
         }
     }
 
@@ -42,7 +45,14 @@
     }
 
     .card-txt {
+        height: 63px;
+        overflow: hidden;
         margin-top: -1.5em;
+
+        &:hover {
+            height: 300px;
+            overflow: visible;
+        }
     }
 
     .readMoreLink {
@@ -65,4 +75,7 @@
 }
 .card:hover .card-txt {
     color: var(--color-secondary);
+}
+.card:hover .card-txt { height: 300px;
+    overflow: visible;
 }

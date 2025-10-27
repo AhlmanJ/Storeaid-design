@@ -1,6 +1,7 @@
 .blogandnews-container {
     height: 727px;
-    width: 1364px;
+    width: 1420px;
+    margin-top: -10em;
 
     .blog-header {
         font-size: 25px;

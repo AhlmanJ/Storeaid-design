@@ -8,6 +8,7 @@ function CardContent({card}) {
             <div className='icon'></div>
             <div className='calendar-txt'><p className='calendar-txt'>{card.created}</p></div>
         </div>
+        
         <h6 className='card-header'>{card.title}</h6>
         <p className='card-txt'>{card.description}</p>
         <a className='readMoreLink' href="*">Read more →</a>
