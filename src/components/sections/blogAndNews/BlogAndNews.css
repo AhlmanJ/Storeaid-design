@@ -1,7 +1,7 @@
 .blogandnews-container {
     height: 727px;
-    width: 1420px;
-    margin-top: -10em;
+    width: 1435px;
+    margin-top: -5em;
 
     .blog-header {
         font-size: 25px;
@@ -16,6 +16,8 @@
         justify-content: space-between;
 
         .blogH3 {
+            width: 890px;
+            margin-bottom: .3em;
             font-size: 52px;
             font-weight: 700;
             line-height: 52px;
@@ -23,7 +25,8 @@
         }
 
         .blogP {
-            margin-bottom: -2em;
+            width: 890px;
+            margin-bottom: -3em;
             line-height: 24px;
             color: var(--color-secondary);
         }

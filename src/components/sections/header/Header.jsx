@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../../elements/Button'
 import './Header.css'
+import { NavLink } from 'react-router-dom'
 
 function Header() {
   return (
@@ -21,12 +22,12 @@ function Header() {
                 </div>
             </div>
             <div className="nav-bar">
-                <a id='brandLogo-storaid' href="/" aria-label='Link back to homepage.'><img src="pictures/header/storAid_Logo.svg" alt="StorAid company logo." aria-label='StorAid company logo.'/></a>
+                <NavLink id='brandLogo-storaid' to="/" aria-label='Link back to homepage.'><img src="pictures/header/storAid_Logo.svg" alt="StorAid company logo." aria-label='StorAid company logo.'/></NavLink>
                 <nav className='navLink-wrapper'>
-                    <a href="/" className="nav-links" aria-label='Link to Homepage.'>Home</a>
-                    <a href="/AboutUs" className="nav-links" aria-label='Link to About us.'>About Us</a>
-                    <a href="/Services" className="nav-links" aria-label='Link to Services.'>Services</a>
-                    <a href="/ContactUs" className="nav-links" aria-label='Link to Contact us.'>Contact Us</a>
+                    <NavLink to="/" className="nav-links" aria-label='Link to Homepage.'>Home</NavLink>
+                    <NavLink to="/AboutUs" className="nav-links" aria-label='Link to About us.'>About Us</NavLink>
+                    <NavLink to="/Services" className="nav-links" aria-label='Link to Services.'>Services</NavLink>
+                    <NavLink to="/ContactUs" className="nav-links" aria-label='Link to Contact us.'>Contact Us</NavLink>
                 </nav>
                 <Button id="discover-btn" /> 
             </div>
