@@ -54,7 +54,6 @@ h1,h2,h3,h4,h5,h6 {
     padding-left: 1rem;
     padding-right: 1rem
 }
-
 .aboutUs {
     height: 739px;
     display: grid;
@@ -113,4 +112,9 @@ h1,h2,h3,h4,h5,h6 {
     align-items: center;
     justify-content: center;
     background-color: var(--color-primary);
+}
+
+.subscribe {
+    height: 163px;
+    background-color: var(--color-3);
 }

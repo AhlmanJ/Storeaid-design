@@ -1,8 +1,14 @@
 import React from 'react'
+import Subscribe from '../components/sections/subscribe/Subscribe'
 
 const NotFound = () => {
   return (
-    <section>NotFound</section>
+    <>
+    <div>Not Found!</div>
+    <section className='subscribe'>
+      <Subscribe />
+    </section>
+    </>
   )
 }
 

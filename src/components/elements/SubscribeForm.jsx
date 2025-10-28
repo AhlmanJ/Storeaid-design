@@ -67,7 +67,7 @@ function SubscribeForm() {
     if (submitted) {
         return (
             <div className='confirmedSubscription'>
-                <h1>You are now subscribed to our newsletter!</h1>
+                <h1 id='confirm-txt'>You are now subscribed to our newsletter!</h1>
                 <button className='confirm-btn' onClick={handleSubscribed}>OK</button>
             </div>
         )
@@ -77,7 +77,7 @@ function SubscribeForm() {
     <div className='SubscribeForm-container'>
         <form className='subscribe' onSubmit={handleSubmit} noValidate>
         <div>
-            <input className={`subscribe-input ${error.email ? 'error' : ''}`} type="email" name='email' value={subscribeData.email} onChange={handleChange} required placeholder='Enter your email' />
+            <input className={`subscribe-input ${error.email ? 'error' : ''}`} type="email" name='email' value={subscribeData.email} onChange={handleChange} required placeholder='               Enter your email' />
             <span className='subscribe-asterisk'>*</span>
             <span className='subscribe-span'>{error.email && error.email}</span>
         </div>

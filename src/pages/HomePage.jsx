@@ -8,6 +8,7 @@ import WhyChooseUs from '../components/sections/whyChooseUs/WhyChooseUs'
 import PricingPlan from '../components/sections/pricingPlan/PricingPlan'
 import LookingForSecure from '../components/sections/lookingForSecure/LookingForSecure'
 import BlogAndNews from '../components/sections/blogAndNews/BlogAndNews'
+import Subscribe from '../components/sections/subscribe/Subscribe'
 
 function HomePage() {
   return (
@@ -37,6 +38,9 @@ function HomePage() {
         </section>
         <section className='blogAndNews'>
           <BlogAndNews />
+        </section>
+        <section className='subscribe'>
+          <Subscribe />
         </section>
     </>
   )
