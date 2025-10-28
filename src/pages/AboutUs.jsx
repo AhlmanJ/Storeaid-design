@@ -5,6 +5,7 @@ import Banner from '../components/sections/banner/Banner'
 import Brands from '../components/sections/brands/Brands'
 import Testimonials from '../components/sections/testimonials/Testimonials'
 import WhyChooseUs from '../components/sections/whyChooseUs/WhyChooseUs'
+import Subscribe from '../components/sections/subscribe/Subscribe'
 
 const AboutUs = () => {
   return (
@@ -24,6 +25,9 @@ const AboutUs = () => {
         <div id='testimonials-bg'><Testimonials /></div>
       </section>
       <WhyChooseUs />
+      <section className='subscribe'>
+        <Subscribe />
+      </section>
     </>
   )
 }

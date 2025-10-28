@@ -1,0 +1,30 @@
+.subscribe-container {
+    display: flex;
+    padding: 0px 14.5em;
+    justify-content: space-between;
+
+    .subscribeTxt-container {
+        display: block;
+
+        .subscribe-h3{
+            margin-top: .65em;
+            font-size: 52px;
+            font-weight: 700;
+            line-height: 52px;
+            margin-bottom: 0px;
+            color: var(--color-secondary);
+        }
+
+        .subscribe-txt{
+            margin-top: 1.6em;
+            font-size: 16px;
+            line-height: 24px;
+            color: var(--color-secondary);
+        }
+    }
+
+    .form-container {
+        margin-top: 3em;
+    }
+
+}

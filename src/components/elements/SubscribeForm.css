@@ -21,7 +21,7 @@
     }
 
     .subscribe-asterisk{
-        margin-left: -27.2em;
+        margin-left: -23.7em;
         position: relative;
         color: red;
     }
@@ -64,12 +64,11 @@
 .confirmedSubscription {
     display: flex;
     align-items: center;
-    height: 140px;
-    width: 450px;
+    height: 100px;
+    width: 600px;
     padding: .3em;
     text-align: center;
     border-radius: 0.625em;
-    color: var(--color-secondary);
     background-color: var(--color-primary);
     border: 3px solid var(--color-2);
 
@@ -90,6 +89,7 @@
         border: none;
         cursor: pointer;
         margin-top: .2em;
+        margin-right: 1em;
         font-size: 15px;
         font-weight: 600;
         font-family: urbanist;
