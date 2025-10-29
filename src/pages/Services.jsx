@@ -6,8 +6,6 @@ import LookingForSecure from '../components/sections/lookingForSecure/LookingFor
 import Subscribe from '../components/sections/subscribe/Subscribe'
 
 
-
-
 const Services = () => {
   return (
     <>
