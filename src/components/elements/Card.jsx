@@ -14,7 +14,6 @@ const Card = () => {
         const res = await fetch(apiUrl)
         const data = await res.json()
         setCard(data)
-
       }catch(error) {
         console.error(`ERROR: ${error}`)
       }
