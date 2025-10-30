@@ -9,6 +9,7 @@
     --color-2: #ECECEC;
     --color-3: #FAF8EC;
     --color-4: #F1FFEA;
+    --color-5: #f1ffeaa4;
 }
 
 *, *::before, *::after {box-sizing: border-box;}
@@ -125,6 +126,14 @@ h1,h2,h3,h4,h5,h6 {
     align-items: center;
     justify-content: center;
     background-color: var(--color-primary);
+}
+
+.findUsOn {
+    height: 599px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-accent3);
 }
 
 .notFound {

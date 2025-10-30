@@ -1,0 +1,122 @@
+.findUsOn-container {
+    height: 599px;
+    width: 1264px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .findUsImg-container {
+        height: 599px;
+        width: 600px;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        margin-top: 5.9em;
+
+        .findUsOn-img {
+            margin-left: -7em;
+        }
+    }
+    
+    .findUsInfo-container {
+        height: 599px;
+        width: 664px;
+        padding: 0px 47px;
+        background-color: var(--color-5);
+
+        .findUs-h3 {
+            font-size: 52px;
+            font-weight: 700;
+            line-height: 52px;
+            margin-top: .96em;
+            color: var(--color-secondary);
+        }
+
+        .findUs-paragraph {
+            width: 540px;
+            line-height: 24px;
+            margin-top: -2.1em;
+            color: var(--color-secondary);
+        }
+
+        .contactInfo-container {
+            .contact {
+                display: flex;
+                margin-top: -1.3em;
+    
+                .contactIcon-bg {
+                    height: 60px;
+                    width: 60px;
+                    margin-top: 1.5em;
+                    margin-bottom: 1.5em;
+                    display: grid;
+                    align-content: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    background-color: var(--color-secondary);
+                }
+
+                .info-wrapper {
+                    margin-top: -.3em;
+                    margin-left: 1em;
+
+                    .contact-heading {
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 25px;
+                        margin-top: 1.2em;
+                        color: var(--color-secondary);
+                    }
+
+                    .navLink-FindUsOn {
+                        color: var(--color-secondary);
+
+                        .navLink-text {
+                            font-size: 17px;
+                            font-weight: 600;
+                            line-height: 20px;
+                            margin-top: -2.1em;
+                            color: var(--color-secondary);
+                        }
+                    }
+
+                    .findUsOn-adress {
+                        margin-top: -2.2em;
+                        font-size: 17px;
+                        font-weight: 600;
+                        line-height: 20px;
+                        color: var(--color-secondary);
+                    }
+                }
+            }
+        }
+
+        .finduUsOn-socialMedia {
+            margin-top: -2.4em;
+            margin-left: .5em;
+            display: flex;
+            align-content: center;
+            justify-content: space-between;
+
+            .ourSocialMedia {
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 25px;
+                color: var(--color-secondary);
+            }
+
+            .ourSocialMedia-line {
+                height: 2px;
+                width: 175px;
+                margin-top: 3.3em;
+                content: '';
+                border: 2px solid var(--color-secondary);
+            }
+
+            .socialMediaIcons-container {
+                width: 160px;
+                margin-top: 2.3em;
+            }
+        }
+    }
+}
