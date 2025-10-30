@@ -2,6 +2,7 @@ import React from 'react'
 import Button from '../../elements/Button'
 import './Header.css'
 import { NavLink } from 'react-router-dom'
+import SocialMedia from '../../elements/SocialMedia'
 
 function Header() {
   return (
@@ -15,10 +16,7 @@ function Header() {
                     <a className='header-link' href="*" aria-label='Link to contact the company via email.'><p id='mail-text'>contact@domain.com</p></a>
                 </div>
                 <div className='right-content'>
-                    <a className='socialMedia-icon' href="https://facebook.com" target='_blank'><img id='socialMedia1' src="pictures/header/header_Icon1.svg" alt="Facebook logo" aria-label='Link to Facebook.' /></a>
-                    <a className='socialMedia-icon' href="https://x.com/" target='_blank'><img id='socialMedia2' src="pictures/header/header_Icon2.svg" alt="Twitter logo" aria-label='Link to X.'/></a>
-                    <a className='socialMedia-icon' href="https://www.instagram.com/" target='_blank'><img id='socialMedia3' src="pictures/header/header_Icon3.svg" alt="Instagram logo" aria-label='Link to Instagram.'/></a>
-                    <a className='socialMedia-icon' href="https://www.youtube.com/" target='_blank'><img id='socialMedia4' src="pictures/header/header_Icon4.svg" alt="YouTube logo" aria-label='Link to YouTube.'/></a>
+                    <SocialMedia />
                 </div>
             </div>
             <div className="nav-bar">
