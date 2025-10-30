@@ -1,0 +1,19 @@
+.backHome-btn {
+    height: 47px;
+    width: 154px;
+    border: none;
+    text-align: center;
+    border-radius: 0.3125em;
+    background-color: var(--color-accent);
+
+    p{  
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--color-secondary);
+    }
+
+    &:hover {
+    text-decoration: none;
+    background-color: var(--color-primary);
+    }
+}
