@@ -1,0 +1,33 @@
+.notfound-container {
+    width: 642px;
+    margin-top: -5.6em;
+    text-align: center;
+
+    .notFound-h1 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 25px;
+        color: var(--color-primary);
+    }
+
+    .notFound-h2 {
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 80px;
+        margin-top: .2em;
+        font-family: inter;
+        color: var(--color-accent);
+    }
+
+    .notFound-paragraph {
+        line-height: 25px;
+        margin-top: -2.9em;
+    }
+
+    .notFoundButton-container {
+        margin-bottom: -1.1em;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+    }
+}
