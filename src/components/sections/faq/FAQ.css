@@ -1,0 +1,38 @@
+.faq-wrapper {
+    height: 433px;
+    width: 1369px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    .faqTxt-container {
+        width: 597px;
+
+        .faqH4 {
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 30px;
+            margin-bottom: -.3em;
+            color: var(--color-accent);
+        }
+
+        .faqH3 {
+            margin-top: .4em;
+            font-size: 52px;
+            font-weight: 800;
+            line-height: 52px;
+            color: var(--color-secondary);
+        }
+
+        .faqP {
+            margin-top: -2.5em;
+            line-height: 24px;
+            color: var(--color-secondary);
+        }
+    }
+
+    .faqAccordion-container {
+        width: 600px;
+        margin-top: 2.35em;
+    }
+}
