@@ -18,11 +18,10 @@ function SubscribeForm() {
     const handleChange = (e) => {
         const { name, value } = e.target;
         setSubscribeData({...subscribeData, [name]: value});
-        let asterisk = document.querySelector('.subscribe-asterisk')
+        
 
         if(value.trim() === '') {
             setError(prevErrors => ({...prevErrors,[name]: 'This field is required'}))
-            asterisk.classList.add('errors')
         } else {
             setError(prevErrors => ({...prevErrors,[name]: ''})) 
         }

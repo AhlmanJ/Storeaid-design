@@ -1,0 +1,278 @@
+.contactForm-container {
+    height: 641px;
+    width: 666px;
+    padding: 30px;
+    border-radius: 0.625em;
+    background-color: var(--color-3);
+
+    label {
+        color: var(--color-secondary);
+    }
+
+    .input-group {
+        display: grid;
+        margin-top: 10px;
+    }
+
+    .contactForm-span {
+        color: var(--color-secondary);
+    }
+
+    .emailAndPhone {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contactForm-name {
+        height: 40px;
+        width: 600px;
+        margin-top: 5px;
+        cursor: pointer;
+        font-family: inter;
+        margin-bottom: 10px;
+        border-radius: 0.3125em;
+        color: var(--color-secondary);
+        border: 1px solid var(--color-accent);
+
+        &:focus {
+            color: var(--color-secondary);
+        }
+    }
+
+    .contactForm-name.error {
+        color: red;
+        border-color: red;
+
+        &::placeholder {
+            color: red;
+        }
+    }
+
+    .contactForm-email {
+        height: 40px;
+        width: 290px;
+        margin-top: 5px;
+        cursor: pointer;
+        font-family: inter;
+        margin-bottom: 10px;
+        border-radius: 0.3125em;
+        color: var(--color-secondary);
+        border: 1px solid var(--color-accent);
+
+        &:focus {
+            color: var(--color-secondary);
+        }
+    }
+
+    .contactForm-email.error {
+        color: red;
+        border-color: red;
+
+        &::placeholder {
+            color: red;
+        }
+    }
+
+
+    .contactForm-telephone {
+        height: 40px;
+        width: 290px;
+        margin-top: 5px;
+        cursor: pointer;
+        font-family: inter;
+        margin-bottom: 10px;
+        border-radius: 0.3125em;
+        color: var(--color-secondary);
+        border: 1px solid var(--color-accent);
+
+        &:focus {
+            color: var(--color-secondary);
+        }
+    }
+
+    .contactForm-subject {
+        height: 40px;
+        width: 600px;
+        cursor: pointer;
+        margin-top: 5px;
+        font-family: inter;
+        margin-bottom: 10px;
+        border-radius: 0.3125em;
+        color: var(--color-secondary);
+        border: 1px solid var(--color-accent);
+
+        &:focus {
+            color: var(--color-secondary);
+        }
+    }
+
+    .contactForm-subject.error {
+        color: red;
+        border-color: red;
+
+        &::placeholder {
+            color: red;
+        }
+    }
+
+    .contactForm-comments {
+        height: 200px;
+        width: 600px;
+        cursor: pointer;
+        margin-top: 5px;
+        font-family: inter;
+        margin-bottom: 10px;
+        border-radius: 0.3125em;
+        color: var(--color-secondary);
+        border: 1px solid var(--color-accent);
+
+        &:focus {
+            color: var(--color-secondary);
+        }
+    }
+
+    .contactForm-comments.error {
+        color: red;
+        border-color: red;
+
+        &::placeholder {
+            color: red;
+        }
+    }
+}
+
+.subscribe-span {
+    color: red;
+    font-size: 14px;
+    margin-top: -.2em;
+    font-family: inter;
+    line-height: 16px;
+}
+
+.submit-button {
+    height: 46px;
+    width: 156px;
+    border: none;
+    font-size: 15px;
+    margin-top: .3em;
+    font-weight: 600;
+    font-family: urbanist;
+    border-radius: 0.1875em;
+    color: var(--color-secondary);
+    background-color: var(--color-accent);
+
+    &:hover {
+        cursor: pointer;
+        color: var(--color-primary);
+        background-color: var(--color-secondary);
+    }
+}
+
+.submittedInformation {
+    width: 500px;
+    display: grid;
+    height: 200px;
+    padding: .3em;
+    margin-top: 10em;
+    text-align: center;
+    align-items: center;
+    border-radius: 0.625em;
+    background-color: var(--color-3);
+    border: 3px solid var(--color-2);
+
+    &:hover {
+        border-color: var(--color-accent);
+    }
+
+    #infoSent-h1 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 25px;
+        color: var(--color-secondary);
+    }
+
+    #infoSent-txt {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25px;
+        margin-top: -1em;
+        margin-left: 3em;
+        margin-right: 3em;
+        color: var(--color-secondary);
+    }
+
+    .informationSent-btn {
+        height: 45px;
+        width: 159.64px;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: -1em;
+        margin-left: 11em;
+        font-family: urbanist;
+        border-radius: 0.3125em;
+        color: var(--color-secondary);
+        background-color: var(--color-accent);
+
+        &:hover {
+            color: var(--color-primary);
+            background-color: var(--color-secondary);
+        }
+    }
+}
+
+.contactForm-name:focus {
+    outline: none;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+.contactForm-name::placeholder {
+    color: var(--color-accent);
+}
+
+.contactForm-email:focus {
+    outline: none;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+.contactForm-email::placeholder {
+    color: var(--color-accent);
+}
+
+.contactForm-telephone:focus {
+    outline: none;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+.contactForm-telephone::placeholder {
+    color: var(--color-accent);
+}
+
+.contactForm-subject:focus {
+    outline: none;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+.contactForm-subject::placeholder {
+    color: var(--color-accent);
+}
+
+.contactForm-comments:focus {
+    outline: none;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+.contactForm-comments::placeholder {
+    color: var(--color-accent);
+}
+
+.contactForm-span.error {
+    color: red;
+}
