@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import './PriceList.css'
 import React from 'react'
 
@@ -33,7 +34,7 @@ function PriceListContent(props) {
                 <div className='checkbox-bg'><div className='checkbox-content'></div></div>
                 <p id='checkbox-txt5' className='checkbox-txt'>Etiam eget libero non ligula</p>
             </div>
-            <div className='rentNow-btn'><a href="/Booking" aria-label='"Rent Now" button to go to the booking page.'><p>Rent Now</p></a></div>
+            <div className='rentNow-btn'><NavLink to="/Booking" aria-label='"Rent Now" button to go to the booking page.'><p>Rent Now</p></NavLink></div>
         </div>
     </div>
   )
