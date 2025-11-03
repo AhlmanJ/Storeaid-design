@@ -8,13 +8,16 @@ const TestimonialTiles = () => {
  
   useEffect(() => {
     const getData = async () => {
-    try{
-      const res = await fetch(apiUrl)
-      const data = await res.json()
-      setTestimonials(data)
-    }catch(error) {
-      console.error(`ERROR: ${error}`)
-    }
+      try{
+        const res = await fetch(apiUrl)
+          if(!res.ok){
+            throw new Error(`Status ${res.status}`)
+          }
+          const data = await res.json()
+          setTestimonials(data)
+      }catch(error) {
+        console.error(`ERROR: ${error}`)
+      }
 
     }
 

@@ -4,8 +4,8 @@ import { Await } from 'react-router-dom';
 
 /* 
 To create this component, I have taken help from the school lecture "React - Enkel formulärhantering". 
-But to be able to use "Regular Expression", I have partly watched the lecture "Validera formulär - Del 2" from our JavaScript course and also received help
-with troubleshooting and how to formulate the code from ChatGPT.
+But to be able to use "Regular Expression", I have partly watched the lecture "Validera formulär - Del 2" from our JavaScript course and "React - Validera formulär med Regular Expression i React",
+and also received help with troubleshooting and how to formulate the code from ChatGPT.
 */
 
 
@@ -32,7 +32,7 @@ function SubscribeForm() {
     }
 
     const handleSubmit = async (e) => {
-        const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+        const regexEmail = /^[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[A-Za-z0-9]{2,}$/;
         e.preventDefault();
 
         if(subscribeData.email.trim() === '') {
