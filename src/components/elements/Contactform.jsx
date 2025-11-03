@@ -20,7 +20,7 @@ function Contactform() {
         setFormData({...formData, [name]: value});
 
         if(value.trim() === '') {
-            setError(prevError => ({...error, [name]: `A ${name} is reqiered.`}))
+            setError(prevError => ({...error, [name]: `A ${name} is required.`}))
         } else {
             setError(prevError => ({...error, [name]: ''}))
         };
@@ -38,7 +38,7 @@ function Contactform() {
 
         Object.keys(formData).forEach(field => {
             if(formData[field].trim() === ''){
-                newError[field] = `A ${field} is reqiered.`
+                newError[field] = `A ${field} is required.`
             }
         });
 
