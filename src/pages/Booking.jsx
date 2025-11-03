@@ -4,6 +4,7 @@ import WhyChooseUs from '../components/sections/whyChooseUs/WhyChooseUs'
 import LookingForSecure from '../components/sections/lookingForSecure/LookingForSecure'
 import Subscribe from '../components/sections/subscribe/Subscribe'
 import FAQ from '../components/sections/faq/FAQ'
+import BookingUnit from '../components/sections/bookingUnit/BookingUnit'
 
 
 
@@ -12,6 +13,9 @@ const Booking = () => {
     <>
       <section className='banner'>
           <Banner />
+      </section>
+      <section className='bookingUnit'>
+        <BookingUnit />
       </section>
       <WhyChooseUs />
       <section className='looking'>
