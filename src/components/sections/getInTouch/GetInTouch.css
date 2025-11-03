@@ -1,0 +1,40 @@
+.getInTouch-container {
+    height: 641px;
+    width: 1364px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    .getInTouch-leftSide {
+        height: 641px;
+        width: 600px;
+        
+        .getInTouch-h1 {
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 25px;
+            margin-top: 0em;
+        }
+
+        .getInTouch-h3 {
+            font-size: 52px;
+            font-weight: 700;
+            line-height: 52px;
+            margin-top: -.2em;
+            color: var(--color-secondary);
+        }
+
+        .getInTouch-txt {
+            line-height: 24px;
+            margin-top: -2.5em;
+            color: var(--color-secondary);
+        }
+
+        .getInTouch-imgBox {
+            height: 367px;
+            width: 664px;
+            margin-top: -.1em;
+            background-color: var(--color-fill);
+        }
+    }
+}
