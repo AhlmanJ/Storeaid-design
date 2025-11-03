@@ -1,0 +1,239 @@
+.bookingForm-container {
+    height: 546px;
+    width: 666px;
+    padding: 10px 35px;
+    border-radius: 0.625em;
+    background-color: var(--color-3);
+
+    
+    label {
+        color: var(--color-secondary);
+    }
+
+    .bookingInput-group {
+        display: grid;
+        margin-top: 10px;
+    }
+
+    .bookingForm-span {
+        color: var(--color-secondary);
+    }
+
+    .name-email-container {
+        display: flex;
+        margin-top: .5em;
+        padding: .5em 0em;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .bookingForm-name {
+        height: 40px;
+        width: 288px;
+        margin-top: 5px;
+        cursor: pointer;
+        padding: .5em .5em;
+        font-family: inter;
+        margin-bottom: 10px;
+        border-radius: 0.3125em;
+        color: var(--color-secondary);
+        border: 1px solid var(--color-accent);
+
+        &:focus {
+            color: var(--color-secondary);
+        }
+    }
+
+    .bookingForm-name.error {
+        color: red;
+        border-color: red;
+
+        &::placeholder {
+            color: red;
+        }
+    }
+
+    .bookingForm-email {
+        height: 40px;
+        width: 288px;
+        margin-top: 5px;
+        cursor: pointer;
+        padding: .5em .5em;
+        font-family: inter;
+        margin-bottom: 10px;
+        border-radius: 0.3125em;
+        color: var(--color-secondary);
+        border: 1px solid var(--color-accent);
+
+        &:focus {
+            color: var(--color-secondary);
+        }
+    }
+
+    .bookingForm-email.error {
+        color: red;
+        border-color: red;
+
+        &::placeholder {
+            color: red;
+        }
+    }
+
+    .bookingForm-selectedUnit {
+        height: 40px;
+        width: 596px;
+        cursor: pointer;
+        margin-top: 5px;
+        padding: .5em .5em;
+        font-family: inter;
+        margin-bottom: 10px;
+        border-radius: 0.3125em;
+        color: var(--color-secondary);
+        border: 1px solid var(--color-accent);
+
+        &:focus {
+            color: var(--color-secondary);
+        }
+    }
+
+    .bookingForm-purpose {
+        height: 200px;
+        width: 596px;
+        cursor: pointer;
+        margin-top: 5px;
+        padding: .5em .5em;
+        font-family: inter;
+        margin-bottom: 10px;
+        border-radius: 0.3125em;
+        color: var(--color-secondary);
+        border: 1px solid var(--color-accent);
+
+        &:focus {
+            color: var(--color-secondary);
+        }
+    }
+
+    .bookingForm-purpose.error {
+        color: red;
+        border-color: red;
+
+        &::placeholder {
+            color: red;
+        }
+    }
+}
+
+.booking-span {
+    color: red;
+    font-size: 14px;
+    margin-top: -.2em;
+    font-family: inter;
+    line-height: 16px;
+}
+
+.bookUnit-button {
+    height: 46px;
+    width: 156px;
+    border: none;
+    font-size: 15px;
+    margin-top: 1em;
+    font-weight: 600;
+    font-family: urbanist;
+    border-radius: 0.1875em;
+    color: var(--color-secondary);
+    background-color: var(--color-accent);
+
+    &:hover {
+        cursor: pointer;
+        color: var(--color-primary);
+        background-color: var(--color-secondary);
+    }
+}
+
+.submittedInfo {
+    height: 546px;
+    width: 666px;
+    display: block;
+    padding: 13em 0em;
+    text-align: center;
+    align-items: center;
+    border-radius: 0.625em;
+    background-color: var(--color-3);
+    border: 3px solid var(--color-2);
+
+    &:hover {
+        border-color: var(--color-accent);
+    }
+
+    #infoSent-text {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 25px;
+        margin-left: 4em;
+        margin-right: 4em;
+        text-align: center;
+        color: var(--color-secondary);
+    }
+
+    .bookingInfoSent-btn {
+        height: 45px;
+        width: 159.64px;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: urbanist;
+        border-radius: 0.3125em;
+        color: var(--color-secondary);
+        background-color: var(--color-accent);
+
+        &:hover {
+            color: var(--color-primary);
+            background-color: var(--color-secondary);
+        }
+    }
+}
+
+.bookingForm-name:focus {
+    outline: none;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+.bookingForm-name::placeholder {
+    color: var(--color-accent);
+}
+
+.bookingForm-email:focus {
+    outline: none;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+.bookingForm-email::placeholder {
+    color: var(--color-accent);
+}
+
+.bookingForm-selectedUnit :focus {
+    outline: none;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+.bookingForm-selectedUnit::placeholder {
+    color: var(--color-accent);
+}
+
+.bookingForm-purpose:focus {
+    outline: none;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+.bookingForm-purpose::placeholder {
+    color: var(--color-accent);
+}
+
+.bookingForm-span.error {
+    color: red;
+}
