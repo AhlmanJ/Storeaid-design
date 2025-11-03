@@ -1,10 +1,13 @@
 footer{
+    height: 90px;
+    background-color: var(--color-secondary);
+    
     .container {
         height: 90px;
+        max-width: 1464px;
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        background-color: var(--color-secondary);
+        justify-content: space-between;
         
         .footerLink-Container{
             display: flex;
