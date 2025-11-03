@@ -6,8 +6,8 @@ import './Contactform.css'
 ---- !!! INFORMATION ABOUT HOW I HAVE USED chatGPT FOR THIS TASK !!! ----
 
 To create this component, I have taken help from the school lecture "React - Enkel formulärhantering". 
-But to be able to use "Regular Expression", I have partly watched the lecture "Validera formulär - Del 2" from our JavaScript course and also received help
-with troubleshooting and how to formulate the code from ChatGPT.
+But to be able to use "Regular Expression", I have partly watched the lecture "Validera formulär - Del 2" from our JavaScript course and "React - Validera formulär med Regular Expression i React",
+and also received help with troubleshooting and how to formulate the code from ChatGPT.
 */
 
 function Contactform() {
@@ -32,7 +32,8 @@ function Contactform() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+        const regexName = /^[A-Öa-ö\s\-]{2,}$/;
+        const regexEmail = /^[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[A-Za-z0-9]{2,}$/;
         const newError = {};
 
         Object.keys(formData).forEach(field => {
@@ -41,17 +42,14 @@ function Contactform() {
             }
         });
 
-        if(!regexEmail.test(formData.email)) {
+        if(!regexName.test(formData.name)) {
+            setError({name: 'Please enter at least a 2 character long name without numbers.'})
+            return
+
+        }else if(!regexEmail.test(formData.email)) {
             setError({email: 'Please enter a valid email adress.'})
             return
-        }
-
-        if(!regexEmail.test(formData.email)) {
-            setError({email: 'Please enter a valid email adress.'})
-            return
-        }
-
-        if(Object.keys(newError).length > 0) {
+        }else if(Object.keys(newError).length > 0) {
             setError(newError)
             return
         };
