@@ -23,6 +23,7 @@
 
     .priceList-container {
         display: flex;
+        margin-top: -2.1em;
         align-items: center;
         justify-content: space-between;
     }
