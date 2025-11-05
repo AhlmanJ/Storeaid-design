@@ -55,7 +55,7 @@
 }
 
 .q-and-a.active .answer {
-    min-height: 95px;
+    height: 120px;
     padding: 1em;
 }
 
