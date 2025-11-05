@@ -1,3 +1,12 @@
+
+/*
+NOTE! 
+I have chosen NOT to code a "mailto:" and "tel:" (in the two links for this), in this case as I know that one should be careful with email and phone links.
+My idea is that if or when this page goes into production I will add these functions at that time.
+*/
+
+
+
 import React from 'react'
 import Button from '../../elements/Button'
 import './Header.css'
@@ -11,9 +20,9 @@ function Header() {
             <div className="contactInfo-bar">
                 <div className='left-content'>
                     <img src="pictures/header/phone_Icon.svg" alt="An icon that looks like a phone" />
-                    <a className='header-link' href="*" aria-label='Link to contact the company by phone.'><p id='nr-text'>+46 8 123 122 44</p></a>
+                    <NavLink className='header-link' to="*" aria-label='Link to contact the company by phone.'><p id='nr-text'>+46 8 123 122 44</p></NavLink>
                     <img id='mail-icon' src="pictures/header/mail_Icon.svg" alt="An icon that looks like a letter" />
-                    <a className='header-link' href="*" aria-label='Link to contact the company via email.'><p id='mail-text'>contact@domain.com</p></a>
+                    <NavLink className='header-link' to="*" aria-label='Link to contact the company via email.'><p id='mail-text'>contact@domain.com</p></NavLink>
                 </div>
                 <div className='right-content'>
                     <SocialMedia />

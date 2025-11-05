@@ -10,7 +10,9 @@ But to be able to use "Regular Expression", I have partly watched the lecture "V
 and also received help with troubleshooting and how to formulate the code from ChatGPT.
 
 
-To ensure that a user selects a "valid device", I have created a list of selectable devices.
+To ensure that a user selects a "valid unit", I have created a list of selectable units.
+My idea with this has been to make it easier for a user to select a "unit" when they want to make a booking,
+but also to make it easier for a company to get the right information from a customer. And I also want the form to meet the WCAG criteria as much as possible.
 I found this in a tutorial on Youtube. ( I have saved the source reference if needed )
 
 */
