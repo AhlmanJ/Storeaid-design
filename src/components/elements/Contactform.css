@@ -225,7 +225,6 @@
     outline: none;
     color: var(--color-secondary);
     border: 1px solid var(--color-secondary);
-    border-color: var(--color-secondary);
 }
 .contactForm-name::placeholder {
     color: var(--color-accent);
@@ -235,7 +234,6 @@
     outline: none;
     color: var(--color-secondary);
     border: 1px solid var(--color-secondary);
-    border-color: var(--color-secondary);
 }
 .contactForm-email::placeholder {
     color: var(--color-accent);
@@ -245,7 +243,6 @@
     outline: none;
     color: var(--color-secondary);
     border: 1px solid var(--color-secondary);
-    border-color: var(--color-secondary);
 }
 .contactForm-telephone::placeholder {
     color: var(--color-accent);
@@ -255,7 +252,6 @@
     outline: none;
     color: var(--color-secondary);
     border: 1px solid var(--color-secondary);
-    border-color: var(--color-secondary);
 }
 .contactForm-subject::placeholder {
     color: var(--color-accent);
@@ -265,7 +261,6 @@
     outline: none;
     color: var(--color-secondary);
     border: 1px solid var(--color-secondary);
-    border-color: var(--color-secondary);
 }
 .contactForm-comments::placeholder {
     color: var(--color-accent);

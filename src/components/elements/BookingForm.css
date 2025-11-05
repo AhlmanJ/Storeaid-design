@@ -198,7 +198,6 @@
     outline: none;
     color: var(--color-secondary);
     border: 1px solid var(--color-secondary);
-    border-color: var(--color-secondary);
 }
 .bookingForm-name::placeholder {
     color: var(--color-accent);
@@ -208,7 +207,6 @@
     outline: none;
     color: var(--color-secondary);
     border: 1px solid var(--color-secondary);
-    border-color: var(--color-secondary);
 }
 .bookingForm-email::placeholder {
     color: var(--color-accent);
@@ -218,7 +216,6 @@
     outline: none;
     color: var(--color-secondary);
     border: 1px solid var(--color-secondary);
-    border-color: var(--color-secondary);
 }
 .bookingForm-selectedUnit::placeholder {
     color: var(--color-accent);
@@ -228,7 +225,6 @@
     outline: none;
     color: var(--color-secondary);
     border: 1px solid var(--color-secondary);
-    border-color: var(--color-secondary);
 }
 .bookingForm-purpose::placeholder {
     color: var(--color-accent);
