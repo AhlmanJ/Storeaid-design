@@ -24,7 +24,9 @@ const AboutUs = () => {
       <section className='testimonials'>
         <div id='testimonials-bg'><Testimonials /></div>
       </section>
+      <section className='whyChooseUs'>
       <WhyChooseUs />
+      </section>
       <section className='subscribe'>
         <Subscribe />
       </section>

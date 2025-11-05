@@ -17,7 +17,9 @@ const Booking = () => {
       <section className='bookingUnit'>
         <BookingUnit />
       </section>
+      <section className='whyChooseUs'>
       <WhyChooseUs />
+      </section>
       <section className='looking'>
         <LookingForSecure />
       </section>
