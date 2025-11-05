@@ -21,7 +21,7 @@ function SubscribeForm() {
         
 
         if(value.trim() === '') {
-            setError(prevErrors => ({...prevErrors,[name]: 'This field is required'}))
+            setError(prevErrors => ({...prevErrors,[name]: '* This field is required'}))
         } else {
             setError(prevErrors => ({...prevErrors,[name]: ''})) 
         }
@@ -36,7 +36,7 @@ function SubscribeForm() {
         e.preventDefault();
 
         if(subscribeData.email.trim() === '') {
-            setError({email: 'This field is required'})
+            setError({email: '* This field is required'})
             return;
         }
 

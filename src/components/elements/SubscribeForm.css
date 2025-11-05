@@ -10,34 +10,28 @@
 
     .subscribe-input {
         height: 60.75px;
+        outline: none;
         width: 540px;
         border-radius: 0.3125em;
         color: var(--color-secondary);
         border: 1px solid var(--color-accent);
-
-        &:focus{
-            color: var(--color-secondary);
-        }
     }
 
     .subscribe-asterisk{
-        margin-left: -23.7em;
+        margin-left: -23em;
         position: relative;
-        color: red;
+        color: var(--color-primary);
     }
 
     .subscribe-span {
         display: block;
+        margin-top: .5em;
         color: red;
         font-size: 14px;
     }
     
     ::placeholder {
         color: var(--color-accent);
-        
-        &.error {
-            color: red;
-        }
     }
 
     .subscribe-btn {
@@ -66,6 +60,7 @@
     align-items: center;
     height: 100px;
     width: 600px;
+    margin-top: -1em;
     padding: .3em;
     text-align: center;
     border-radius: 0.625em;
@@ -104,13 +99,18 @@
     }
 }
 
+.subscribe-input:focus {
+    outline: none;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+}
 .subscribe-input.error{
     color: red;
     border-color: red;
 }
-.subscribe-input.error::placeholder{
+.subscribe-input.error ~ .subscribe-asterisk {
     color: red;
 }
-.subscribe-input:focus + .subscribe-asterisk{
-    color: var(--color-primary);
+.subscribe-input.error::placeholder{
+    color: red;
 }
