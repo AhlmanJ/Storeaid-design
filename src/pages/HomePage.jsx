@@ -29,7 +29,9 @@ function HomePage() {
             <Testimonials />
           </div>
         </section>
+        <section className='whyChooseUs'>
         <WhyChooseUs />
+        </section>
         <section className='pricingPlan'>
           <PricingPlan />
         </section>
