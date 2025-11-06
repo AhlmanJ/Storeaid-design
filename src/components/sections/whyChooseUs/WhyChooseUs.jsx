@@ -11,6 +11,8 @@ This works because I have React routers installed in my project. With this featu
 */
 
 function WhyChooseUs() {
+
+/*<--- NOTE! This code block is created by chatGPT! (Start) --->*/
     
         let location = useLocation()
         let className = '';
@@ -29,6 +31,9 @@ function WhyChooseUs() {
                 heading = 'Home';
                 break;
         }
+
+/*<--- NOTE! This code block is created by chatGPT! (End) --->*/
+
   return (
     <section className={className}>
         <div className='content-container'>

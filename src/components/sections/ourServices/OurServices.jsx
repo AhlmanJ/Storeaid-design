@@ -17,7 +17,7 @@ function OurServices() {
       </div>
       <div className='tile-container'>
         <div className='tile-wrapper1'>
-          {/* Uses "props" to change/add title and text in the Tile component. */}
+          {/* Uses "props" to change/add heading and text in the Tile component. */}
           <TileContent heading='Diverse Unit Sizes' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.'/>
           <TileContent heading='Moving Assistance' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.'/>
         </div>
