@@ -1,6 +1,6 @@
 
 /*
-NOTE! this code block is built with support from chatGPT!
+NOTE! This code block is built with support from chatGPT!
 
 I wanted to be able to change the content of the banner depending on which page the user is on. 
 So I found the "React Hook" - "useLocation" on the internet but after searching for a long time for tips on how to use it, 
@@ -13,10 +13,11 @@ import React from 'react'
 
 function Banner() {
 
+/*<--- NOTE! This code block is created by chatGPT! (Start) --->*/
+
     let location = useLocation()
     let heading = '';
 
-/*<--- NOTE! this code block is built with support from chatGPT! --->*/
     switch(location.pathname) {
         case '/AboutUs':
             heading = 'About Us';
@@ -34,7 +35,7 @@ function Banner() {
             heading = '';
             break;
     }
-/*<--- NOTE! this code block is built with support from chatGPT! --->*/
+/*<--- NOTE! This code block is created by chatGPT! (End) --->*/
 
     return (
         <div className='banner-text'>
