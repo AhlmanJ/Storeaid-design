@@ -11,10 +11,12 @@ import NotFound from './pages/NotFound'
 import Header from './components/sections/header/Header'
 import Footer from './components/sections/footer/Footer'
 import './index.css'
+import ScrollToTop from './components/elements/ScrollToTop'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
+    <ScrollToTop />
     <div className='wrapper'>
     <Header />
     
