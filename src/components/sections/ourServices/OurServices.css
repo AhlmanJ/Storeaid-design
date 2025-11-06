@@ -7,29 +7,30 @@
         align-items: center;
         justify-content: space-between;
 
-        h3{
-            font-size: 52px;
-            font-weight: 700;
-            line-height: 52px;
-            margin-top: -.3em;
-            color: var(--color-secondary);
-
-            #h3-br{
-                display: block;
-        }
-        }
-
-        h4{
+        .ourServices-Heading {
             margin-top: 0em;
             font-size: 25px;
             font-weight: 700;
             line-height: 25px;
         }
 
+        .ourServices-H3{
+            font-size: 52px;
+            font-weight: 700;
+            line-height: 52px;
+            margin-top: -.08em;
+            color: var(--color-secondary);
+
+            #h3-br{
+                display: block;
+            }
+        }
+
         p{  
             margin-bottom: 2.5em;
             line-height: 24px;
             color: var(--color-secondary);
+
             .txt-br{
                 display: block;
             }
@@ -37,7 +38,7 @@
     }
 
     .tile-container{
-        margin-top: -2.5em;
+        margin-top: -3em;
         display: flex;
         align-items: center;
         justify-content: space-between;

@@ -7,6 +7,7 @@
         font-size: 25px;
         font-weight: 700;
         line-height: 25px;
+        margin-top: 1.6em;
     }
 
     .blogTxt-container {
@@ -17,6 +18,7 @@
 
         .blogH3 {
             width: 890px;
+            margin-top: 1.34em;
             margin-bottom: .3em;
             font-size: 52px;
             font-weight: 700;

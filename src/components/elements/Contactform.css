@@ -184,7 +184,7 @@
         border-color: var(--color-accent);
     }
 
-    #infoSent-h1 {
+    #infoSent-h2 {
         font-size: 25px;
         font-weight: 600;
         line-height: 25px;
@@ -227,7 +227,7 @@
     border: 1px solid var(--color-secondary);
 }
 .contactForm-name::placeholder {
-    color: var(--color-accent);
+    color: var(--color-accent2);
 }
 
 .contactForm-email:focus {
@@ -236,7 +236,7 @@
     border: 1px solid var(--color-secondary);
 }
 .contactForm-email::placeholder {
-    color: var(--color-accent);
+    color: var(--color-accent2);
 }
 
 .contactForm-telephone:focus {
@@ -245,7 +245,7 @@
     border: 1px solid var(--color-secondary);
 }
 .contactForm-telephone::placeholder {
-    color: var(--color-accent);
+    color: var(--color-accent2);
 }
 
 .contactForm-subject:focus {
@@ -254,7 +254,7 @@
     border: 1px solid var(--color-secondary);
 }
 .contactForm-subject::placeholder {
-    color: var(--color-accent);
+    color: var(--color-accent2);
 }
 
 .contactForm-comments:focus {
@@ -263,7 +263,7 @@
     border: 1px solid var(--color-secondary);
 }
 .contactForm-comments::placeholder {
-    color: var(--color-accent);
+    color: var(--color-accent2);
 }
 
 .contactForm-span.error {

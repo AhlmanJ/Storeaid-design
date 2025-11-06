@@ -14,11 +14,11 @@
             font-size: 25px;
             font-weight: 700;
             line-height: 25px;
-            color: var(--color-accent)
+            color: var(--color-accent2)
         }
 
         .booking-h3 {
-            margin-top: -.2em;
+            margin-top: -.12em;
             font-size: 52px;
             font-weight: 700;
             line-height: 52px;
@@ -28,7 +28,7 @@
         .booking-ImgContainer {
             height: 545px;
             width: 673px;
-            margin-top: -1.5em;
+            margin-top: -1.05em;
             border: 5px solid var(--color-2);
             background-color: var(--color-fill);
         }

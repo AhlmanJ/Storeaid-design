@@ -5,9 +5,10 @@
 
     .subscribeTxt-container {
         display: block;
+        margin-top: -.5em;
 
-        .subscribe-h3{
-            margin-top: .65em;
+        .subscribe-h2{
+            margin-top: .75em;
             font-size: 52px;
             font-weight: 700;
             line-height: 52px;
@@ -24,7 +25,7 @@
     }
 
     .form-container {
-        margin-top: 3em;
+        margin-top: 3.1em;
     }
 
 }

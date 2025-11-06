@@ -8,16 +8,17 @@
     .faqTxt-container {
         width: 597px;
 
-        .faqH4 {
+        .faqH2 {
             font-size: 25px;
             font-weight: 700;
             line-height: 30px;
-            margin-bottom: -.3em;
-            color: var(--color-accent);
+            margin-top: -.1em;
+            margin-bottom: 0em;
+            color: var(--color-accent2);
         }
 
         .faqH3 {
-            margin-top: .4em;
+            margin-top: .3em;
             font-size: 52px;
             font-weight: 800;
             line-height: 52px;
@@ -25,7 +26,7 @@
         }
 
         .faqP {
-            margin-top: -2.5em;
+            margin-top: -1.9em;
             line-height: 24px;
             color: var(--color-secondary);
         }

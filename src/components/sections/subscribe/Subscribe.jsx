@@ -6,7 +6,7 @@ function Subscribe() {
   return (
     <div className='subscribe-container'>
       <div className='subscribeTxt-container'>
-        <h3 className='subscribe-h3'>Subscribe Our Newsletter</h3>
+        <h2 className='subscribe-h2'>Subscribe Our Newsletter</h2>
         <p className='subscribe-txt'>Subscribe to our newsletter to receive early discount offers, updates and info</p>
       </div>
       <div className='form-container'>

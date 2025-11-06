@@ -2,19 +2,19 @@
     height: 692px;
     width: 1365px;
 
-    h3 {
-        margin-top: -.2em;
+    .pricingPlan-h2 {
+        margin-top: 0em;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+
+    .pricingPlan-h3 {
+        margin-top: .45em;
         font-size: 52px;
         font-weight: 700;
         line-height: 52px;
         color: var(--color-secondary);
-    }
-
-    h4 {
-        margin-top: .1em;
-        font-size: 25px;
-        font-weight: 700;
-        line-height: 25px;
     }
 
     .txt-br {
@@ -23,7 +23,7 @@
 
     .priceList-container {
         display: flex;
-        margin-top: -2.1em;
+        margin-top: -1.9em;
         align-items: center;
         justify-content: space-between;
     }

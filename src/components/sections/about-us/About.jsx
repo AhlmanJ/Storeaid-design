@@ -10,22 +10,22 @@ function About() {
         <div className='img-container'></div>
         <div className='info-container'>
           <div className='experience'>
-            <h2>12+</h2>
+            <h2 className='experience-content'>12+</h2>
             <p>Years of experience</p>
           </div>
           <div className='clients'>
-            <h2>150K+</h2>
+            <h2 className='experience-content'>150K+</h2>
             <p>Satisfied clients</p>
           </div>
           <div className='warehouse'>
-            <h2>35+</h2>
+            <h2 className='experience-content'>35+</h2>
             <p>Warehouse</p>
           </div>
         </div>
       </div>
       <div className='right-content'>
-        <h4>About Us</h4>
-        <h3>Providing a Safe Space for<span id='h3-br'></span>Your Treasured Items</h3>
+        <h2 className='aboutUs-H2'> About Us</h2>
+        <h3 className='aboutUs-H3'>Providing a Safe Space for<span id='h3-br'></span>Your Treasured Items</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui<span className='text-br'></span>lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi, non sodales augue.<span className='text-br'></span>Phasellus eget elit gravida.</p>
         <div className='box-container'> 
             <TileSmallContent heading='Vision' text='Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium.'/>

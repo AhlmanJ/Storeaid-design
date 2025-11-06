@@ -5,6 +5,7 @@
     --color-secondary: #12372A;
     --color-accent3: rgba(18, 55, 42, 0.80);
     --color-accent: #F1C30C;
+    --color-accent2: #aa8a07;
     --color-fill: #C4C4C4;
     --color-2: #ECECEC;
     --color-3: #FAF8EC;
@@ -38,7 +39,7 @@ p{
 }
 
 h1,h2,h3,h4,h5,h6 {
-    color:var(--color-accent);
+    color:var(--color-accent2);
     font-family: urbanist;
 }
 
@@ -117,6 +118,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .subscribe {
     height: 163px;
+    overflow: hidden;
     background-color: var(--color-3);
 }
 
