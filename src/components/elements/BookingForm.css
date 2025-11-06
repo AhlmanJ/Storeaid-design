@@ -200,7 +200,7 @@
     border: 1px solid var(--color-secondary);
 }
 .bookingForm-name::placeholder {
-    color: var(--color-accent);
+    color: var(--color-accent2);
 }
 
 .bookingForm-email:focus {
@@ -209,7 +209,7 @@
     border: 1px solid var(--color-secondary);
 }
 .bookingForm-email::placeholder {
-    color: var(--color-accent);
+    color: var(--color-accent2);
 }
 
 .bookingForm-selectedUnit :focus {
@@ -218,7 +218,7 @@
     border: 1px solid var(--color-secondary);
 }
 .bookingForm-selectedUnit::placeholder {
-    color: var(--color-accent);
+    color: var(--color-accent2);
 }
 
 .bookingForm-purpose:focus {
@@ -227,7 +227,7 @@
     border: 1px solid var(--color-secondary);
 }
 .bookingForm-purpose::placeholder {
-    color: var(--color-accent);
+    color: var(--color-accent2);
 }
 
 .bookingForm-span.error {

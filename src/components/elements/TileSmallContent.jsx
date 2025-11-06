@@ -4,7 +4,7 @@ import './TileSmall.css'
 function TileSmallContent(props) {
   return (
     <div className="tileSmall">
-        <h4 className="tileSmallHeading">{props.heading}</h4>
+        <h2 className="tileSmallHeading">{props.heading}</h2>
         <p className="tileSmallText">{props.text}</p>
     </div>
   )

@@ -101,7 +101,7 @@ function BookingForm() {
         return (
             <div className='submittedInfo'>
                 <p id='infoSent-text'>We have received your booking request and will respond to you within 1-2 business days.</p>
-                <button className='bookingInfoSent-btn' onClick={handleOk}>OK!</button>
+                <button className='bookingInfoSent-btn' aria-label='Button to confirm sent information.' onClick={handleOk}>OK!</button>
             </div>
         )
     };
@@ -136,7 +136,7 @@ function BookingForm() {
                     <span className='booking-span'>{error.purpose && error.purpose}</span>
             </div>
 
-            <button className='bookUnit-button' type='submit'>Book Unit</button>
+            <button className='bookUnit-button' aria-label='Button to submit form.' type='submit'>Book Unit</button>
         </form>
     </div>
   )

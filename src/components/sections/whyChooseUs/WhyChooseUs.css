@@ -26,17 +26,20 @@
     height: 684px;
     width: 1364px;
 
-    h3 {
-        font-size: 52px;
-        font-weight: 700;
-        line-height: 52px;
-        color: var(--color-secondary);
-    }
-
-    h4{
+    .whyChooseUs-H2{
         font-size: 25px;
         font-weight: 700;
         line-height: 25px;
+        margin-top: 1.7em;
+    }
+
+
+    .whyChooseUs-H3 {
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 52px;
+        margin-top: 1.4em;
+        color: var(--color-secondary);
     }
 
     p {
@@ -65,35 +68,38 @@
             width: 650px;
             margin-left: 1.5em;
 
-            h5 {
+            .whyChooseUs-H3 {
                 font-size: 24px;
                 font-weight: 600;
                 line-height: 25px;
+                margin-top: 1.7em;
                 color: var(--color-secondary);
             }
 
             p {
-                margin-top: -1.5em;
+                margin-top: -.5em;
             }
 
             .lock {
                 display: flex;
-                
+                margin-top: -.05em;
             }
 
             .moneyBag {
                 display: flex;
+                margin-top: -1.21em;
                 
             }
 
             .clean {
                 display: flex;
+                margin-top: -.6em;
                 
             }
 
             .clock {
                 display: flex;
-                
+                margin-top: -0.91em;
             }
 
             .txt-container {

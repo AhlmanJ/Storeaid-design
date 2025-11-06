@@ -31,7 +31,7 @@
     }
     
     ::placeholder {
-        color: var(--color-accent);
+        color: var(--color-accent2);
     }
 
     .subscribe-btn {

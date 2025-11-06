@@ -8,8 +8,8 @@ function OurServices() {
     <div className='services-container'>
       <div className='text-content'>
         <div className='left-txt'>
-          <h4>Our Services</h4>
-          <h3>Specialized Storage for<span id='h3-br'></span>Every Special Item</h3>
+          <h2 className='ourServices-Heading'>Our Services</h2>
+          <h3 className='ourServices-H3'>Specialized Storage for<span id='h3-br'></span>Every Special Item</h3>
         </div>
         <div className='right-txt'>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui<span className='txt-br'></span>lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus<span className='txt-br'></span>eget elit gravida.</p>

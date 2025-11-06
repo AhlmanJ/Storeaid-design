@@ -37,9 +37,9 @@ function WhyChooseUs() {
   return (
     <section className={className}>
         <div className='content-container'>
-            <h4>Why Choose Us</h4>
+            <h2 className='whyChooseUs-H2'>Why Choose Us</h2>
             <div className='section1'>
-                <h3>Choose Us for Exceptional<span className='txt-br'></span>Storage Solutions</h3>
+                <h3 className='whyChooseUs-H3'>Choose Us for Exceptional<span className='txt-br'></span>Storage Solutions</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui<span className='txt-br'></span>lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus<span className='txt-br'></span>eget elit gravida.</p>
             </div>
             <div className='section2'>
@@ -47,28 +47,28 @@ function WhyChooseUs() {
                     <div className='lock'>
                     <div className='card'><img src="public/pictures/whyChooseUs/lock-icon.svg" alt="" /></div>
                     <div className='txt-container'>
-                        <h5>Security and Safety</h5>
+                        <h3 className='whyChooseUs-H3'>Security and Safety</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,<span className='txt-br'></span>luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                     </div>
                     </div>
                     <div className='moneyBag'>
                     <div className='card'><img src="public/pictures/whyChooseUs/money-icon.svg" alt="" /></div>
                     <div className='txt-container'>
-                        <h5>Flexible and Affordable</h5>
+                        <h3 className='whyChooseUs-H3'>Flexible and Affordable</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,<span className='txt-br'></span>luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                     </div>
                     </div>
                     <div className='clean'>
                     <div className='card'><img src="public/pictures/whyChooseUs/clean-icon.svg" alt="" /></div>
                     <div className='txt-container'>
-                        <h5>Clean and Well-Maintained Facilities</h5>
+                        <h3 className='whyChooseUs-H3'>Clean and Well-Maintained Facilities</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,<span className='txt-br'></span>luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                     </div>
                     </div>
                     <div className='clock'>
                     <div className='card'><img src="public/pictures/whyChooseUs/clock-icon.svg" alt="" /></div>
                     <div className='txt-container'>
-                        <h5>24/7 and Convenient Access</h5>
+                        <h3 className='whyChooseUs-H3'>24/7 and Convenient Access</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,<span className='txt-br'></span>luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                     </div>
                     </div>

@@ -37,12 +37,20 @@ footer{
                 display: flex;
                 align-items: center;
                 margin-right: 40px;
+
+                &:hover {
+                    color: var(--color-accent);
+                }
             }
 
             #policy-link{
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
+
+                &:hover {
+                    color: var(--color-accent);
+                }
             }
         }
     }

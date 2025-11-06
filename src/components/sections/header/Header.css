@@ -28,6 +28,7 @@ header{
                     font-family: inter;
 
                     &:hover {
+                        text-decoration: underline;
                         color: var(--color-accent);
                     }
                 }
@@ -43,6 +44,7 @@ header{
                     margin-left: .5em;
 
                     &:hover {
+                        text-decoration: underline;
                         color: var(--color-accent);
                     }
                 }

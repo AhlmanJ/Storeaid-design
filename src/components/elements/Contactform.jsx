@@ -73,9 +73,9 @@ function Contactform() {
     if (submit) {
         return (
             <div className='submittedInformation'>
-                <h1 id='infoSent-h1'>Thank you for contacting us.</h1>
+                <h2 id='infoSent-h2'>Thank you for contacting us.</h2>
                 <p id='infoSent-txt'>We have received your message and will respond to you within 1-2 business days.</p>
-                <button className='informationSent-btn' onClick={handleOk}>OK!</button>
+                <button className='informationSent-btn' aria-label='Button to confirm sent information.' onClick={handleOk}>OK!</button>
             </div>
         )
     };
@@ -114,7 +114,7 @@ function Contactform() {
                     <span className='subscribe-span'>{error.comment && error.comment}</span>
             </div>
 
-            <button className='submit-button' type='submit'>Submit</button>
+            <button className='submit-button' aria-label='Button to submit form.' type='submit'>Submit</button>
         </form>
     </div>
   )

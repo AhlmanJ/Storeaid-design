@@ -8,22 +8,25 @@
         text-align: center;
         .testimonialsTxt-wrapper{
             height: 300px;
-            h3 {
-                margin-top: -.3em;
+            
+            .testimonials-H2 {
+                margin-top: 3.88em;
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 25px;
+                color: var(--color-accent);
+            }
+            
+            .testimonials-H3 {
+                margin-top: .4em;
                 font-size: 52px;
                 font-weight: 700;
                 line-height: 52px;
                 color: var(--color-primary);
             }
-            h4 {
-                margin-top: 4em;
-                font-size: 25px;
-                font-weight: 700;
-                line-height: 25px;
-            }
-        
+            
             p {
-                margin-top: -2em;
+                margin-top: -1.4em;
                 line-height: 24px;
                 
                 .text-br {
@@ -33,7 +36,7 @@
         }
         .tile-wrapper {
             width: 1400px;
-            margin-top: -1em;
+            margin-top: -0.75em;
             display: flex;
             align-items: center;
             justify-content: space-evenly;

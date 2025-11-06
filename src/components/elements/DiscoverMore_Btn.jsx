@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 function DiscoverMore_Btn() {
   return (
-    <div id='btn'><NavLink className="discover-btn" to="/Services" aria-label='"Discover more" button to go to the Services page.'><p>Discover More</p></NavLink></div>
+    <div id='btn'><NavLink className="discover-btn" to="/AboutUs" aria-label='"Discover more" button to go to the About Us page.'><p>Discover More</p></NavLink></div>
   )
 }
 

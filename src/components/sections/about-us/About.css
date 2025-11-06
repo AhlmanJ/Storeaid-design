@@ -28,12 +28,13 @@
             border-radius: 0.625em;
             background-color: var(--color-secondary);
 
-            h2{
+            .experience-content {
                 font-size: 64px;
                 line-height: 80px;
                 font-weight: 800;
                 margin-bottom: 0px;
                 margin-top: .2em;
+                color: var(--color-accent);
             }
 
             p{
@@ -70,18 +71,19 @@
             color: var(--color-secondary);
         }
 
-        h3{
-            font-size: 52px;
-            font-weight: 700;
-            line-height: 52px;
-            margin-top: -.4em;
-            color: var(--color-secondary);
-        }
-
-        h4{
+        .aboutUs-H2 {
             font-size: 25px;
             font-weight: 700;
             line-height: 25px;
+            margin-top: 1.2em;
+        }
+
+        .aboutUs-H3 {
+            font-size: 52px;
+            font-weight: 700;
+            line-height: 52px;
+            margin-top: .35em;
+            color: var(--color-secondary);
         }
 
         h5{
