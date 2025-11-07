@@ -1,15 +1,25 @@
 .SubscribeForm-container {
+    height: 100px;
+    margin-top: 1em;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 3em;
 
     .subscribe{
         display: flex;
     }
 
+    .input-wrapper {
+        margin-top: 1.5em;
+    }
+
+    .subscribe-label {
+        margin-bottom: 0em;
+    }
+
     .subscribe-input {
         height: 60.75px;
+        margin-top: -1.4em;
         outline: none;
         width: 540px;
         border-radius: 0.3125em;
@@ -40,6 +50,7 @@
         border: none;
         font-size: 15px;
         font-weight: 600;
+        margin-top: 1.6em;
         margin-left: 22px;
         font-family: urbanist;
         border-radius: 0.3125em;
@@ -113,4 +124,8 @@
 }
 .subscribe-input.error::placeholder{
     color: red;
+}
+
+.form-wrapper {
+    display: grid;
 }
