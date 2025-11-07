@@ -75,10 +75,13 @@ function SubscribeForm() {
   return (
     <div className='SubscribeForm-container'>
         <form className='subscribe' onSubmit={handleSubmit} noValidate>
-        <div>
-            <input className={`subscribe-input ${error.email ? 'error' : ''}`} type="email" name='email' value={subscribeData.email} onChange={handleChange} required placeholder='               Enter your email' />
-            <span className='subscribe-asterisk'>*</span>
-            <span className='subscribe-span'>{error.email && error.email}</span>
+        <div className='subscribeForm-wrapper'>
+            <label className='subscribe-label' htmlFor="subscribe-input">Enter your email to subscribe our newsletter:</label>
+                <div className='input-wrapper'>
+                    <input className={`subscribe-input ${error.email ? 'error' : ''}`} type="email" name='email' value={subscribeData.email} onChange={handleChange} required placeholder='               Enter your email' />
+                    <span className='subscribe-asterisk'>*</span>
+                    <span className='subscribe-span'>{error.email && error.email}</span>
+                </div>
         </div>
         <button className='subscribe-btn' type='submit'>Submit</button>
         </form>
