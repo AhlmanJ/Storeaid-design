@@ -64,6 +64,7 @@
         width: 700px;
         padding: 0em 1em;
         margin-top: -4em;
+        margin-left: 1em;
 
         p {
             line-height: 24px;
@@ -97,6 +98,7 @@
         }
         
         .box-container{
+            width: 665px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -162,7 +164,7 @@
                 .phoneicon-background{
                     height: 60px;
                     width: 60px;
-                    margin-top: -6em;
+                    margin-top: -3.5em;
                     margin-left: 7.5em;
                     border-radius: 50%;
                     background-color: var(--color-secondary);
@@ -195,7 +197,19 @@
                 }
 
                 .moreInfo{
+                    margin-top: -.8em;
                     margin-left: 2em;
+
+                    .aboutUs-moreinfo {
+                        margin-bottom: .3em;
+                    }
+
+                    #phone-nr {
+                        font-size: 20px;
+                        font-weight: 700;
+                        font-family: urbanist;
+                        color: var(--color-secondary);
+                    }
 
                 }
             }
