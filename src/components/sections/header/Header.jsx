@@ -20,9 +20,9 @@ function Header() {
             <div className="contactInfo-bar">
                 <div className='left-content'>
                     <img src="pictures/header/phone_Icon.svg" alt="An icon that looks like a phone" />
-                    <NavLink className='header-link' to="*" aria-label='Link to contact the company by phone.'><p id='nr-text'>+46 8 123 122 44</p></NavLink>
+                    <NavLink id='nr-text' className='header-link' to="*" aria-label='Link to contact the company by phone.'>+46 8 123 122 44</NavLink>
                     <img id='mail-icon' src="pictures/header/mail_Icon.svg" alt="An icon that looks like a letter" />
-                    <NavLink className='header-link' to="*" aria-label='Link to contact the company via email.'><p id='mail-text'>contact@domain.com</p></NavLink>
+                    <NavLink id='mail-text' className='header-link' to="*" aria-label='Link to contact the company via email.'>contact@domain.com</NavLink>
                 </div>
                 <div className='right-content'>
                     <SocialMedia />
