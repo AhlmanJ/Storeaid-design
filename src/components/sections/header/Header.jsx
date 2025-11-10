@@ -3,6 +3,9 @@
 NOTE! 
 I have chosen NOT to code a "mailto:" and "tel:" (in the two links for this), in this case as I know that one should be careful with email and phone links.
 My idea is that if or when this page goes into production I will add these functions at that time.
+
+I have chosen to change the color that is displayed when you hover over the links so that the contrast is acceptable for WCAG.
+The color that was chosen for this in the design file is too poor in contrast.
 */
 
 
