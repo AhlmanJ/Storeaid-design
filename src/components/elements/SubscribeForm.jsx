@@ -7,9 +7,10 @@ To create this component, I have taken help from the school lecture "React - Enk
 But to be able to use "Regular Expression", I have partly watched the lecture "Validera formulär - Del 2" from our JavaScript course and "React - Validera formulär med Regular Expression i React",
 and also received help with troubleshooting and how to formulate the code from ChatGPT.
 
- ------------  NOTE! ------------
+------------  NOTE! ------------
  
- i've added a <label> to the subscribe form. This was not in the original design file but to meet the WCAG criterias i've decided to add this.
+i've added a <label> to the subscribe form. This was not in the original design file but to meet the WCAG criterias i've decided to add this.
+I have also changed the color of the text in the placeholder for better contrast.
 
 */
 
