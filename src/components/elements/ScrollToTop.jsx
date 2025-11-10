@@ -1,5 +1,8 @@
 
 /*
+
+----------- CODE COPIED FROM REACT ROUTER - webpage!! -------------
+
 A component that ensures that when you change pages, the page automatically scrolls to the top.
 
 I wanted each page to scroll to the top when changing pages and therefore started looking for information about this.
@@ -19,3 +22,6 @@ export default function ScrollToTop() {
 
   return null;
 }
+
+
+/* ----------- CODE COPIED FROM REACT ROUTER - webpage!! ------------- */

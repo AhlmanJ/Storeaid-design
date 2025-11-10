@@ -55,6 +55,10 @@
         line-height: 24px;
         font-family: inter;
         color: var(--color-accent);
+
+        &:hover {
+            color: var(--color-accent2);
+        }
     }
 }
 
@@ -69,4 +73,7 @@
 }
 .card:hover .card-txt {
     color: var(--color-secondary);
+}
+.card:hover .readMoreLink {
+    color: var(--color-accent2);
 }

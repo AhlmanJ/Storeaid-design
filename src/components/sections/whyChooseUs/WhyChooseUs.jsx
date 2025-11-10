@@ -3,7 +3,7 @@ import './WhyChooseUs.css'
 import { useLocation } from 'react-router-dom'
 
 
-/* 
+/* ---- NOTE! ----
 Using the same "switch-case" that I got help with from chatGPT in the "Banner" section. 
 To change the background color depending on which pathname we are on, I change the class name. Then I style this in the CSS file 
 

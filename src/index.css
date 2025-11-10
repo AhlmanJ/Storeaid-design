@@ -165,3 +165,29 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: center;
     background-color: var(--color-accent3);
 }
+
+/* --------- NOTE! Start---------
+
+
+I have used an input field in my contact form to allow a user to enter a phone number.
+Since I want the user to only enter numbers in this field, I have used type="number".
+However, when I use this type, the browser adds an up and down arrow so that you can "browse" numbers per default. 
+To remove this, I use this code that I found online (the entire code block). Source reference is available!
+
+I first tried to add this code to my CSS for "Contactform" but it didn't work.
+Then I asked chatGPT about this and was told that this code should be added so that it becomes "Global".
+
+*/
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*--------- NOTE! End---------*/
