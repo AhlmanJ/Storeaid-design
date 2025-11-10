@@ -12,13 +12,13 @@ const Booking = () => {
   return (
     <>
       <section className='banner'>
-          <Banner />
+        <Banner />
       </section>
       <section className='bookingUnit'>
         <BookingUnit />
       </section>
       <section className='whyChooseUs'>
-      <WhyChooseUs />
+        <WhyChooseUs />
       </section>
       <section className='looking'>
         <LookingForSecure />

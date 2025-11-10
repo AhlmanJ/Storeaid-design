@@ -19,13 +19,13 @@ const AboutUs = () => {
         <About />
       </section>
       <section className='brands'>
-          <Brands />
+        <Brands />
       </section>
       <section className='testimonials'>
         <div id='testimonials-bg'><Testimonials /></div>
       </section>
       <section className='whyChooseUs'>
-      <WhyChooseUs />
+        <WhyChooseUs />
       </section>
       <section className='subscribe'>
         <Subscribe />

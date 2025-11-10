@@ -8,6 +8,11 @@ Using the same "switch-case" that I got help with from chatGPT in the "Banner" s
 To change the background color depending on which pathname we are on, I change the class name. Then I style this in the CSS file 
 
 This works because I have React routers installed in my project. With this feature I can find out which route I am on and then make changes to that specific route.
+
+--------- NOTE! ----------
+
+I have changed the color of the heading in this section as the color in the design file had too poor contrast for WCAG.
+
 */
 
 function WhyChooseUs() {

@@ -1,3 +1,11 @@
+
+/*
+------------------------- NOTE! ------------------------- 
+
+I have changed the color of the heading in this section as the color in the design file had too poor contrast for WCAG.
+
+*/
+
 import React from 'react'
 import './BookingUnit.css'
 import BookingForm from '../../elements/BookingForm'
