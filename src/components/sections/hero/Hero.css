@@ -10,6 +10,11 @@
     .heroText-container{
         grid-column: 2;
         grid-row: 2;
+
+        @media(width <= 1600px) {
+            grid-column: 2/span 3;
+            grid-row: 2;
+        }
         
         .hero-H1{
             font-size: 25px;
@@ -47,5 +52,24 @@
         grid-column: 3;
         grid-row: 2/ span3;
     }
-}
 
+    @media(width <= 1700px) {
+        #hero-img {
+            margin-top: 1.65em;
+            margin-left: .3em;
+        }
+    }
+
+    @media(width <= 1600px) {
+        #hero-img {
+            margin-top: 4.1em;
+            margin-left: .3em;
+        }
+    }
+
+    @media(width <= 1600px) {
+        #hero-img {
+           display: none;
+        }
+    }
+}
