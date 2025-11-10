@@ -3,7 +3,7 @@ import './BookingForm.css'
 
 /*
 
----- !!! INFORMATION ABOUT HOW I HAVE USED chatGPT FOR THIS TASK !!! ----
+---- !!! INFORMATION ABOUT HOW I HAVE USED CHATGPT FOR THIS TASK !!! ----
 
 To create this component, I have taken help from the school lecture "React - Enkel formulärhantering". 
 But to be able to use "Regular Expression", I have partly watched the lecture "Validera formulär - Del 2" from our JavaScript course and "React - Validera formulär med Regular Expression i React",
@@ -15,12 +15,14 @@ My idea with this has been to make it easier for a user to select a "unit" when 
 but also to make it easier for a company to get the right information from a customer. And I also want the form to meet the WCAG criteria as much as possible.
 I found this in a tutorial on Youtube. ( I have saved the source reference if needed )
 
+I have changed the color of the text in the "placeholder" for contrast. (WCAG)
+
 */
 
 
 
 function BookingForm() {
-    const [formData, setFormData] = useState({name: '', email: '', purpose: ''});
+    const [formData, setFormData] = useState({name: '', email: '', selectedUnit:'', purpose: ''});
     const [submit, setSubmit] = useState(false);
     const [error, setError] = useState({});
 
@@ -37,6 +39,10 @@ function BookingForm() {
     };
 
     const unitOptions = [{
+        label: "Choose Unit",
+        value: "",
+    },
+    {
         label: "Small Unit",
         value: "Small Unit",
     },

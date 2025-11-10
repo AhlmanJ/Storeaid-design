@@ -5,7 +5,7 @@ import { Await } from 'react-router-dom';
 /* 
 To create this component, I have taken help from the school lecture "React - Enkel formulärhantering". 
 But to be able to use "Regular Expression", I have partly watched the lecture "Validera formulär - Del 2" from our JavaScript course and "React - Validera formulär med Regular Expression i React",
-and also received help with troubleshooting and how to formulate the code from ChatGPT.
+and also received help with troubleshooting and how to formulate the regular expression code from ChatGPT.
 
 ------------  NOTE! ------------
  

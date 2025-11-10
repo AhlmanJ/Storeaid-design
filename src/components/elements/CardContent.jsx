@@ -1,3 +1,10 @@
+
+/*
+
+I have changed the contrast of the "Read more" link when hovering over a "Card" to improve accessibility (WCAG).
+
+*/
+
 import React from 'react'
 
 function CardContent({card}) {

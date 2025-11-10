@@ -3,11 +3,22 @@ import './Contactform.css'
 
 /*
 
----- !!! INFORMATION ABOUT HOW I HAVE USED chatGPT FOR THIS TASK !!! ----
+---- !!! INFORMATION ABOUT HOW I HAVE USED CHATGPT FOR THIS TASK !!! ----
 
 To create this component, I have taken help from the school lecture "React - Enkel formulärhantering". 
 But to be able to use "Regular Expression", I have partly watched the lecture "Validera formulär - Del 2" from our JavaScript course and "React - Validera formulär med Regular Expression i React",
 and also received help with troubleshooting and how to formulate the code from ChatGPT.
+
+I have changed the color of the text in the "placeholder" for contrast. (WCAG)
+
+I have used an input field in my contact form to allow a user to enter a phone number.
+Since I want the user to only enter numbers in this field, I have used type="number".
+However, when I use this type, the browser adds an up and down arrow so that you can "browse" numbers per default.
+To remove this, I have a code I found online that removes this default behavior, but this code must be coded in my global CSS. See index.css , lines 169 - 193.
+
+I first tried to add this code to my CSS for "Contactform" but it didn't work.
+Then I asked chatGPT about this and was told that this code should be added so that it becomes "Global".
+
 */
 
 function Contactform() {
@@ -45,7 +56,6 @@ function Contactform() {
         if(!regexName.test(formData.name)) {
             setError({name: 'Please enter at least a 2 character long name without numbers.'})
             return
-
         }else if(!regexEmail.test(formData.email)) {
             setError({email: 'Please enter a valid email adress.'})
             return
@@ -98,7 +108,7 @@ function Contactform() {
 
                 <div className='input-group'>
                     <label htmlFor="contactForm-telephone">Telephone</label>
-                    <input id='contactForm-telephone' className='contactForm-telephone' name='phoneNumber' type="tel" placeholder='Telephone'/>
+                    <input id='contactForm-telephone' className='contactForm-telephone' name='phoneNumber' type="number" placeholder='Telephone'/>
                 </div>
             </div>
 
