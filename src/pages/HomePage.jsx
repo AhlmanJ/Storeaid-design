@@ -30,7 +30,7 @@ function HomePage() {
           </div>
         </section>
         <section className='whyChooseUs'>
-        <WhyChooseUs />
+          <WhyChooseUs />
         </section>
         <section className='pricingPlan'>
           <PricingPlan />
