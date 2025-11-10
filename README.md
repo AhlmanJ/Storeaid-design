@@ -1,16 +1,32 @@
-# React + Vite
+Hi!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I'm studying to become a .NET Web Developer at EC Utbildning and this is my second school assignment.
+The main task was to create reusable components in React that would be used on several different pages on the website. I was given a design file in Figma that I was supposed to create a website from.
 
-Currently, two official plugins are available:
+Some topics covered in this assignment:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-The website is created in React + White.
+-Use of components.
+-Using React Hooks.
+-Send/retrieve data to and from a web api.
+-Validate forms and handle error messages.
+-Version control the code with Git and GitHUB.
+-Accessibility according to WCAG 2.1 as far as possible.
 
-## React Compiler
+This assignment did not require me to build the website for mobile and tablet (Although this is something you should always do), therefore I have only built the website for "Desktop" (1920x1080). This is because in this case I focused on learning React etc.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NOTE! 
 
-## Expanding the ESLint configuration
+-When I built this website, I used React Router which I downloaded.
+-To see what changes I have made to try to meet the requirements of WCAG 2.1 - see notes in each component and section.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+In some parts of this project I have used CHATGPT:
+-Some code snippets/code blocks.
+-For troubleshooting.
+-As a "teacher", ask the AI ​​to "break down the code" into smaller parts and explain what each part does.
+
+!!! --- BUT I HAVE COMMENTED IN THE CODE, WHERE I HAVE INSERTED CODE THAT IS CREATED BY CHATGPT. --- !!!
+
+
+Hope you like the end result!
