@@ -11,7 +11,9 @@ function TestimonialConent({testimonials}) {
         Then we use "_" to "ignore" the elements in the existing array because we only need to know the "length" of it.
         "i" stands for index which is used to keep track of where we are in the array.
         Then we insert an image per element which is then printed in the "testimonial tile"
-    
+
+        ------------------------- Code by chatGPT ------------------------
+
         {Array.from({ length: testimonials.rating }).map((_, i) => (
           <img
             key={i}
@@ -21,6 +23,8 @@ function TestimonialConent({testimonials}) {
           />
         ))}
         
+        -------------------------------------------------------------------
+
     */
 
   return (

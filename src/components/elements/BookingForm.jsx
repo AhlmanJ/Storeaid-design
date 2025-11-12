@@ -7,7 +7,7 @@ import './BookingForm.css'
 
 To create this component, I have taken help from the school lecture "React - Enkel formulärhantering". 
 But to be able to use "Regular Expression", I have partly watched the lecture "Validera formulär - Del 2" from our JavaScript course and "React - Validera formulär med Regular Expression i React",
-and also received help with troubleshooting and how to formulate the code from ChatGPT.
+and also received help with troubleshooting and how to formulate the code from ChatGPT (Regular expressions).
 
 
 To ensure that a user selects a "valid unit", I have created a list of selectable units.
