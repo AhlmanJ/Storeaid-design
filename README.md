@@ -7,26 +7,22 @@ Some topics covered in this assignment:
 
 -The website is created in React + White.
 -Use of components.
--Using React Hooks.
+-Use of React Hooks.
 -Send/retrieve data to and from a web api.
 -Validate forms and handle error messages.
 -Version control the code with Git and GitHUB.
 -Accessibility according to WCAG 2.1 as far as possible.
 
-This assignment did not require me to build the website for mobile and tablet (Although this is something you should always do), therefore I have only built the website for "Desktop" (1920x1080). This is because in this case I focused on learning React etc.
+This assignment did not require me to build the website for mobile and tablet (Although this is something you should always do), therefore I have only built the website 
+for "Desktop" (1920x1080). This is because in this case I focused on learning React etc.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 NOTE! 
 
--When I built this website, I used React Router which I downloaded.
+-When I built this website, I used React Router that I downloaded.
 -To see what changes I have made to try to meet the requirements of WCAG 2.1 - see notes in each component and section.
 
-In some parts of this project I have used CHATGPT:
--Some code snippets/code blocks.
--For troubleshooting.
--As a "teacher", ask the AI ​​to "break down the code" into smaller parts and explain what each part does.
-
-!!! --- BUT I HAVE COMMENTED IN THE CODE, WHERE I HAVE INSERTED CODE THAT IS CREATED BY CHATGPT. --- !!!
-
+In some parts of this project I have used CHATGPT. Either for a code block, a line of code or as a debugging aid to be able to structure the code correctly. Comments about 
+this can be found in the project files.
 
 Hope you like the end result!
